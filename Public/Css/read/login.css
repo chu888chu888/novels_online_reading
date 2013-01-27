@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+.login{padding-top:50px;}
+.login .cont{
+
+float: left;
+margin-left: -20px;
+position: relative;
+_display: inline;
+width: 429px;
+height: 321px;
+background-image:url(../../images/read/login/portal.png);
+}
+
+.login_main{
+height:232px;
+float:left;
+}
+
+.login_main .login_list .login_input {
+position: relative;
+width: 270px;
+height: 73px;
+}
+
+.login_main .login_list .input_txt {
+border: 1px solid #D9D9D9;
+border-radius: 3px;
+font-size: 15px;
+font-family: "Microsoft Yahei";
+height: 19px;
+width: 254px;
+color: #666;
+padding: 16px 0 16px 14px;
+margin-bottom: 20px;
+}
+.login_main .login_list .txt_default {
+position: absolute;
+font-size: 15px;
+color: #666;
+top: 17px;
+left: 15px;
+cursor: text;
+}
+.login_main .login_btn {
+width: 148px;
+height: 48px;
+line-height: 150px;
+overflow: hidden;
+font-size: 0;
+background-image: url(../../images/read/icon/login.png);
+border: none;
+cursor: pointer;
+}

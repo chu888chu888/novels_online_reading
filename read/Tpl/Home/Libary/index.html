@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>我的阅读器</title>
+<load href="__PUBLIC__/css/read/reset-min.css" />
+<load href="__PUBLIC__/css/read/common.css"  />
+<load href="__PUBLIC__/css/read/lib.css"  />
+</head>
+
+<body>
+<include file="./Tpl/Home/Inc/head.html" />
+<div class="library-heading" >
+  <div class="header">
+        <ul class="library-filter-tabs">
+            <li class="tab" >
+                <h2> {$userName}的阅读列表</h2>
+           </li>
+        </ul>
+    </div>  
+</div>
+<ol class="bookshelf" >
+
+ <foreach name="mybooks" item="vo">
+
+      
+        
+  <li class="article-item">
+      <a data-permalink="" href="__URL__/../ebook/read/{$vo.bookId}/{$vo.contentId}">
+          <img class="article-item-media" src="__PUBLIC__/Images/read/books/coverDemo.jpg" width="76" height="113">
+            <div class="article-item-content">
+              <h3> {$vo.bookTitle} </h3>
+              <div class="author"> {$vo.authorName}</div>  
+                <div class="reading-progress">  
+                  <span class="progress-positive-dots progress-dots">
+                      {// 计算出阅读进度百分百 }
+
+                        <for start="1" end="$vo[contentId]/$vo[maxContentId]*10">●</for></span>
+                    <span class="progress-negative-dots progress-dots">
+                     <for start="1" end="11-$vo[contentId]/$vo[maxContentId]*10">•</for></span>
+                    <span class="progress-number">{$vo.contentId}/{$vo.maxContentId}章 </span>  
+               </div>
+               <div class="article-item-meta">
+                  <div class="article-published-date">  发布时间 {$vo.addTime}  </div>
+                    <div class="impression">
+                      
+                        <div class="impression-numbers">  
+      <span class="review-count"> 共 <span class="review-num"> 396 </span> 评论 </span>  </div></div>
+
+        <div class="impression">
+                      
+                        <div class="impression-numbers">  
+                        <div class="article-published-date">  上次阅读  {$vo.lastTime} </div>
+     </div></div>
+
+
+      </div></div></a>
+  </li>
+  
+ </foreach>
+
+     
+    
+</ol>
+
+<include file="./Tpl/Admin/Inc/footer.html" />
+</body>
+</html>

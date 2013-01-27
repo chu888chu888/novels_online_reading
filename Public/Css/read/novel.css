@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+
+.library-heading {
+margin-top: 30px;
+}
+.library-heading .header {
+height: 30px;
+line-height: 30px;
+vertical-align: middle;
+}
+.library-heading .library-filter-tabs h2 {
+float: left;
+_display: inline;
+font-size: 120%;
+}
+
+
+.article .item {
+padding-top: 15px;
+border-top: 1px solid #DDD;
+overflow: hidden;
+}
+.article .item .cover {
+float: left;
+width: 116px;
+}
+.article .item .cover .cover-renderer {
+position: relative;
+font-size: 11px;
+width: 87px;
+height: 118px;
+padding-top: 16px;
+padding-left: 3px;
+word-wrap: break-word;
+}
+.article .item .cover .cover-rendered-text {
+display: block;
+width: 56px;
+height: 9em;
+line-height: 1.5;
+margin-right: auto;
+margin-left: auto;
+overflow: hidden;
+text-align: center;
+white-space: pre;
+}
+.article .item .info {
+float: right;
+position: relative;
+width: 484px;
+}
+.article .item  .info .title {
+width: 364px;
+font-weight: bold;
+font-size: 20px;
+color: black;
+}
+.article .item  .info  .article-actions {
+position: absolute;
+top: 0;
+right: 0;
+color: #999;
+font-size: 13px;
+}
+.article .item  .info  .article-actions .btn-compact, .article .item  .info  .article-actions .btn-compact:hover {
+background: #666;
+padding: 5px 13px;
+line-height: 1.1;
+font-weight: normal;
+
+position: relative;
+display: inline-block;
+zoom: 1;
+font-weight: bold;
+font-size: 13px;
+line-height: 1;
+color: white;
+border-radius: 4px;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+}
+.article .item  .info  .article-actions .purchase {
+background-color: #A1A19F;
+}
+.article .item .info p {
+font-size: 12px;
+margin-bottom: 10px;
+}
+.article .item-expanded .article-desc-brief, .article .item .article-desc-full {
+display: none;
+}
+.article .article-desc-full, .article .article-desc-brief {
+overflow: hidden;
+_zoom: 1;
+}
+.article .article-desc-brief .abstract {
+height: 82px;
+overflow: hidden;
+}
+.article-desc-full p, .article-desc-brief p {
+text-indent: 24px;
+}
+.icon-added{
+	display: inline-block;
+zoom: 1;
+width: 20px;
+height: 20px;
+margin-left: 5px;
+background: url(../../Images/read/icon/icon-added.png) no-repeat;
+vertical-align: bottom;
+}

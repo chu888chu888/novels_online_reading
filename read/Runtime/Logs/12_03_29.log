@@ -1,0 +1,691 @@
+[ 2012-03-29T12:21:18+08:00 ] /www/read/ | INFO: Tag[ app_begin ] --START--
+[ 2012-03-29T12:21:18+08:00 ] /www/read/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.010020s ]
+[ 2012-03-29T12:21:18+08:00 ] /www/read/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.010500s ]
+[ 2012-03-29T12:21:18+08:00 ] /www/read/login | INFO: Tag[ route_check ] --START--
+[ 2012-03-29T12:21:18+08:00 ] /www/read/login | INFO: Run CheckRoute Behavior [ RunTime:0.008458s ]
+[ 2012-03-29T12:21:18+08:00 ] /www/read/login | INFO: Tag[ route_check ] --END-- [ RunTime:0.008603s ]
+[ 2012-03-29T12:21:18+08:00 ] /www/read/login | INFO: Tag[ app_begin ] --START--
+[ 2012-03-29T12:21:18+08:00 ] /www/read/login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000848s ]
+[ 2012-03-29T12:21:18+08:00 ] /www/read/login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000948s ]
+[ 2012-03-29T12:21:18+08:00 ] /www/read/login | NOTIC: [8] Undefined index:  userName functions.php 第 441 行.
+[ 2012-03-29T12:21:18+08:00 ] /www/read/login | NOTIC: [8] Undefined index:  logout functions.php 第 441 行.
+[ 2012-03-29T12:21:18+08:00 ] /www/read/login | INFO: Tag[ view_template ] --START--
+[ 2012-03-29T12:21:18+08:00 ] /www/read/login | INFO: Run LocationTemplate Behavior [ RunTime:0.006370s ]
+[ 2012-03-29T12:21:18+08:00 ] /www/read/login | INFO: Tag[ view_template ] --END-- [ RunTime:0.006469s ]
+[ 2012-03-29T12:21:18+08:00 ] /www/read/login | INFO: Tag[ view_parse ] --START--
+[ 2012-03-29T12:21:18+08:00 ] /www/read/login | INFO: Run ParseTemplate Behavior [ RunTime:0.068103s ]
+[ 2012-03-29T12:21:18+08:00 ] /www/read/login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.068212s ]
+[ 2012-03-29T12:21:18+08:00 ] /www/read/login | INFO: Tag[ view_filter ] --START--
+[ 2012-03-29T12:21:18+08:00 ] /www/read/login | INFO: Run ContentReplace Behavior [ RunTime:0.005443s ]
+[ 2012-03-29T12:21:18+08:00 ] /www/read/login | INFO: Run TokenBuild Behavior [ RunTime:0.005706s ]
+[ 2012-03-29T12:21:18+08:00 ] /www/read/login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.005249s ]
+[ 2012-03-29T12:21:18+08:00 ] /www/read/login | INFO: Run ShowRuntime Behavior [ RunTime:0.006314s ]
+[ 2012-03-29T12:21:18+08:00 ] /www/read/login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.022992s ]
+[ 2012-03-29T12:21:18+08:00 ] /www/read/login | INFO: Tag[ view_end ] --START--
+[ 2012-03-29T12:21:18+08:00 ] /www/read/login | INFO: Run ShowPageTrace Behavior [ RunTime:0.006572s ]
+[ 2012-03-29T12:21:18+08:00 ] /www/read/login | INFO: Tag[ view_end ] --END-- [ RunTime:0.006663s ]
+[ 2012-03-29T12:21:25+08:00 ] /www/read/check | INFO: Tag[ route_check ] --START--
+[ 2012-03-29T12:21:25+08:00 ] /www/read/check | INFO: Run CheckRoute Behavior [ RunTime:0.001232s ]
+[ 2012-03-29T12:21:25+08:00 ] /www/read/check | INFO: Tag[ route_check ] --END-- [ RunTime:0.001384s ]
+[ 2012-03-29T12:21:25+08:00 ] /www/read/check | INFO: Tag[ app_begin ] --START--
+[ 2012-03-29T12:21:25+08:00 ] /www/read/check | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000839s ]
+[ 2012-03-29T12:21:25+08:00 ] /www/read/check | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000937s ]
+[ 2012-03-29T12:21:25+08:00 ] /www/read/check | SQL: SHOW COLUMNS FROM `user` [ RunTime:0.009092s ]
+[ 2012-03-29T12:21:25+08:00 ] /www/read/check | SQL: SELECT `id` FROM `user` WHERE ( `userName` = 'user' ) AND ( `userPass` = 'user' ) AND ( `state` = 1 ) LIMIT 1   [ RunTime:0.008332s ]
+[ 2012-03-29T12:21:25+08:00 ] /www/read/index | INFO: Tag[ route_check ] --START--
+[ 2012-03-29T12:21:25+08:00 ] /www/read/index | INFO: Run CheckRoute Behavior [ RunTime:0.001230s ]
+[ 2012-03-29T12:21:25+08:00 ] /www/read/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001379s ]
+[ 2012-03-29T12:21:25+08:00 ] /www/read/index | INFO: Tag[ app_begin ] --START--
+[ 2012-03-29T12:21:25+08:00 ] /www/read/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000826s ]
+[ 2012-03-29T12:21:25+08:00 ] /www/read/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000924s ]
+[ 2012-03-29T12:21:25+08:00 ] /www/read/index | SQL: SHOW COLUMNS FROM `books` [ RunTime:0.008789s ]
+[ 2012-03-29T12:21:25+08:00 ] /www/read/index | SQL: SELECT * FROM `books`  [ RunTime:0.003863s ]
+[ 2012-03-29T12:21:25+08:00 ] /www/read/index | SQL: SHOW COLUMNS FROM `booklib` [ RunTime:0.008266s ]
+[ 2012-03-29T12:21:25+08:00 ] /www/read/index | SQL: SELECT * FROM `booklib` WHERE ( `userId` = '3' )  [ RunTime:0.003830s ]
+[ 2012-03-29T12:21:25+08:00 ] /www/read/index | INFO: Tag[ view_template ] --START--
+[ 2012-03-29T12:21:25+08:00 ] /www/read/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001671s ]
+[ 2012-03-29T12:21:25+08:00 ] /www/read/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001773s ]
+[ 2012-03-29T12:21:25+08:00 ] /www/read/index | INFO: Tag[ view_parse ] --START--
+[ 2012-03-29T12:21:25+08:00 ] /www/read/index | INFO: Run ParseTemplate Behavior [ RunTime:0.026654s ]
+[ 2012-03-29T12:21:25+08:00 ] /www/read/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.026760s ]
+[ 2012-03-29T12:21:25+08:00 ] /www/read/index | INFO: Tag[ view_filter ] --START--
+[ 2012-03-29T12:21:25+08:00 ] /www/read/index | INFO: Run ContentReplace Behavior [ RunTime:0.000684s ]
+[ 2012-03-29T12:21:25+08:00 ] /www/read/index | INFO: Run TokenBuild Behavior [ RunTime:0.000675s ]
+[ 2012-03-29T12:21:25+08:00 ] /www/read/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000452s ]
+[ 2012-03-29T12:21:25+08:00 ] /www/read/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000740s ]
+[ 2012-03-29T12:21:25+08:00 ] /www/read/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002800s ]
+[ 2012-03-29T12:21:25+08:00 ] /www/read/index | INFO: Tag[ view_end ] --START--
+[ 2012-03-29T12:21:25+08:00 ] /www/read/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000787s ]
+[ 2012-03-29T12:21:25+08:00 ] /www/read/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000870s ]
+[ 2012-03-29T12:21:32+08:00 ] /www/read/Libary | INFO: Tag[ route_check ] --START--
+[ 2012-03-29T12:21:32+08:00 ] /www/read/Libary | INFO: Run CheckRoute Behavior [ RunTime:0.001234s ]
+[ 2012-03-29T12:21:32+08:00 ] /www/read/Libary | INFO: Tag[ route_check ] --END-- [ RunTime:0.001372s ]
+[ 2012-03-29T12:21:32+08:00 ] /www/read/Libary | INFO: Tag[ app_begin ] --START--
+[ 2012-03-29T12:21:32+08:00 ] /www/read/Libary | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001027s ]
+[ 2012-03-29T12:21:32+08:00 ] /www/read/Libary | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001183s ]
+[ 2012-03-29T12:21:32+08:00 ] /www/read/Libary | SQL: SHOW COLUMNS FROM `booklib` [ RunTime:0.004258s ]
+[ 2012-03-29T12:21:32+08:00 ] /www/read/Libary | SQL: SELECT * FROM `booklib` WHERE ( `userId` = '3' )  [ RunTime:0.009110s ]
+[ 2012-03-29T12:21:32+08:00 ] /www/read/Libary | SQL: SHOW COLUMNS FROM `books` [ RunTime:0.004432s ]
+[ 2012-03-29T12:21:32+08:00 ] /www/read/Libary | SQL: SELECT * FROM `books`  [ RunTime:0.004052s ]
+[ 2012-03-29T12:21:32+08:00 ] /www/read/Libary | INFO: Tag[ view_template ] --START--
+[ 2012-03-29T12:21:32+08:00 ] /www/read/Libary | INFO: Run LocationTemplate Behavior [ RunTime:0.001583s ]
+[ 2012-03-29T12:21:32+08:00 ] /www/read/Libary | INFO: Tag[ view_template ] --END-- [ RunTime:0.001682s ]
+[ 2012-03-29T12:21:32+08:00 ] /www/read/Libary | INFO: Tag[ view_parse ] --START--
+[ 2012-03-29T12:21:32+08:00 ] /www/read/Libary | INFO: Run ParseTemplate Behavior [ RunTime:0.031004s ]
+[ 2012-03-29T12:21:32+08:00 ] /www/read/Libary | INFO: Tag[ view_parse ] --END-- [ RunTime:0.031110s ]
+[ 2012-03-29T12:21:32+08:00 ] /www/read/Libary | INFO: Tag[ view_filter ] --START--
+[ 2012-03-29T12:21:32+08:00 ] /www/read/Libary | INFO: Run ContentReplace Behavior [ RunTime:0.000633s ]
+[ 2012-03-29T12:21:32+08:00 ] /www/read/Libary | INFO: Run TokenBuild Behavior [ RunTime:0.000654s ]
+[ 2012-03-29T12:21:32+08:00 ] /www/read/Libary | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000445s ]
+[ 2012-03-29T12:21:32+08:00 ] /www/read/Libary | INFO: Run ShowRuntime Behavior [ RunTime:0.000719s ]
+[ 2012-03-29T12:21:32+08:00 ] /www/read/Libary | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002700s ]
+[ 2012-03-29T12:21:32+08:00 ] /www/read/Libary | INFO: Tag[ view_end ] --START--
+[ 2012-03-29T12:21:32+08:00 ] /www/read/Libary | INFO: Run ShowPageTrace Behavior [ RunTime:0.000774s ]
+[ 2012-03-29T12:21:32+08:00 ] /www/read/Libary | INFO: Tag[ view_end ] --END-- [ RunTime:0.000856s ]
+[ 2012-03-29T12:21:34+08:00 ] /www/read/ebook/read/33/4 | INFO: Tag[ route_check ] --START--
+[ 2012-03-29T12:21:34+08:00 ] /www/read/ebook/read/33/4 | INFO: Run CheckRoute Behavior [ RunTime:0.001257s ]
+[ 2012-03-29T12:21:34+08:00 ] /www/read/ebook/read/33/4 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001398s ]
+[ 2012-03-29T12:21:34+08:00 ] /www/read/ebook/read/33/4 | INFO: Tag[ app_begin ] --START--
+[ 2012-03-29T12:21:34+08:00 ] /www/read/ebook/read/33/4 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000851s ]
+[ 2012-03-29T12:21:34+08:00 ] /www/read/ebook/read/33/4 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000950s ]
+[ 2012-03-29T12:21:34+08:00 ] /www/read/ebook/read/33/4 | SQL: SHOW COLUMNS FROM `bookcontents` [ RunTime:0.011037s ]
+[ 2012-03-29T12:21:34+08:00 ] /www/read/ebook/read/33/4 | SQL: SELECT * FROM `bookcontents` WHERE ( `booksId` = '33' ) AND ( `contentNum` = '4' )  [ RunTime:0.005269s ]
+[ 2012-03-29T12:21:34+08:00 ] /www/read/ebook/read/33/4 | SQL: SHOW COLUMNS FROM `books` [ RunTime:0.004332s ]
+[ 2012-03-29T12:21:34+08:00 ] /www/read/ebook/read/33/4 | SQL: SELECT `bookTitle` FROM `books` WHERE ( `id` = '33' ) LIMIT 1   [ RunTime:0.004319s ]
+[ 2012-03-29T12:21:34+08:00 ] /www/read/ebook/read/33/4 | SQL: SELECT `contentNum` FROM `bookcontents` WHERE ( `booksId` = '33' ) ORDER BY contentNum desc LIMIT 1   [ RunTime:0.000668s ]
+[ 2012-03-29T12:21:34+08:00 ] /www/read/ebook/read/33/4 | SQL: SHOW COLUMNS FROM `booklib` [ RunTime:0.004113s ]
+[ 2012-03-29T12:21:34+08:00 ] /www/read/ebook/read/33/4 | SQL: UPDATE `booklib` SET `contentId`='4',`lastTime`='2012-03-29' WHERE ( `userId` = '3' ) AND ( `bookId` = '33' ) [ RunTime:0.003728s ]
+[ 2012-03-29T12:21:34+08:00 ] /www/read/ebook/read/33/4 | INFO: Tag[ view_template ] --START--
+[ 2012-03-29T12:21:34+08:00 ] /www/read/ebook/read/33/4 | INFO: Run LocationTemplate Behavior [ RunTime:0.001620s ]
+[ 2012-03-29T12:21:34+08:00 ] /www/read/ebook/read/33/4 | INFO: Tag[ view_template ] --END-- [ RunTime:0.001726s ]
+[ 2012-03-29T12:21:34+08:00 ] /www/read/ebook/read/33/4 | INFO: Tag[ view_parse ] --START--
+[ 2012-03-29T12:21:34+08:00 ] /www/read/ebook/read/33/4 | INFO: Run ParseTemplate Behavior [ RunTime:0.022961s ]
+[ 2012-03-29T12:21:34+08:00 ] /www/read/ebook/read/33/4 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.023077s ]
+[ 2012-03-29T12:21:34+08:00 ] /www/read/ebook/read/33/4 | INFO: Tag[ view_filter ] --START--
+[ 2012-03-29T12:21:34+08:00 ] /www/read/ebook/read/33/4 | INFO: Run ContentReplace Behavior [ RunTime:0.000804s ]
+[ 2012-03-29T12:21:34+08:00 ] /www/read/ebook/read/33/4 | INFO: Run TokenBuild Behavior [ RunTime:0.000721s ]
+[ 2012-03-29T12:21:34+08:00 ] /www/read/ebook/read/33/4 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000470s ]
+[ 2012-03-29T12:21:34+08:00 ] /www/read/ebook/read/33/4 | INFO: Run ShowRuntime Behavior [ RunTime:0.000755s ]
+[ 2012-03-29T12:21:34+08:00 ] /www/read/ebook/read/33/4 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003011s ]
+[ 2012-03-29T12:21:34+08:00 ] /www/read/ebook/read/33/4 | INFO: Tag[ view_end ] --START--
+[ 2012-03-29T12:21:34+08:00 ] /www/read/ebook/read/33/4 | INFO: Run ShowPageTrace Behavior [ RunTime:0.000868s ]
+[ 2012-03-29T12:21:34+08:00 ] /www/read/ebook/read/33/4 | INFO: Tag[ view_end ] --END-- [ RunTime:0.000969s ]
+[ 2012-03-29T12:21:41+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ route_check ] --START--
+[ 2012-03-29T12:21:41+08:00 ] /www/read/ebook/read/33/5 | INFO: Run CheckRoute Behavior [ RunTime:0.001280s ]
+[ 2012-03-29T12:21:41+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001427s ]
+[ 2012-03-29T12:21:41+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ app_begin ] --START--
+[ 2012-03-29T12:21:41+08:00 ] /www/read/ebook/read/33/5 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000844s ]
+[ 2012-03-29T12:21:41+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000945s ]
+[ 2012-03-29T12:21:41+08:00 ] /www/read/ebook/read/33/5 | SQL: SHOW COLUMNS FROM `bookcontents` [ RunTime:0.004500s ]
+[ 2012-03-29T12:21:41+08:00 ] /www/read/ebook/read/33/5 | SQL: SELECT * FROM `bookcontents` WHERE ( `booksId` = '33' ) AND ( `contentNum` = '5' )  [ RunTime:0.004561s ]
+[ 2012-03-29T12:21:41+08:00 ] /www/read/ebook/read/33/5 | SQL: SHOW COLUMNS FROM `books` [ RunTime:0.004345s ]
+[ 2012-03-29T12:21:41+08:00 ] /www/read/ebook/read/33/5 | SQL: SELECT `bookTitle` FROM `books` WHERE ( `id` = '33' ) LIMIT 1   [ RunTime:0.003756s ]
+[ 2012-03-29T12:21:41+08:00 ] /www/read/ebook/read/33/5 | SQL: SELECT `contentNum` FROM `bookcontents` WHERE ( `booksId` = '33' ) ORDER BY contentNum desc LIMIT 1   [ RunTime:0.001130s ]
+[ 2012-03-29T12:21:41+08:00 ] /www/read/ebook/read/33/5 | SQL: SHOW COLUMNS FROM `booklib` [ RunTime:0.004429s ]
+[ 2012-03-29T12:21:41+08:00 ] /www/read/ebook/read/33/5 | SQL: UPDATE `booklib` SET `contentId`='5',`lastTime`='2012-03-29' WHERE ( `userId` = '3' ) AND ( `bookId` = '33' ) [ RunTime:0.005148s ]
+[ 2012-03-29T12:21:41+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_template ] --START--
+[ 2012-03-29T12:21:41+08:00 ] /www/read/ebook/read/33/5 | INFO: Run LocationTemplate Behavior [ RunTime:0.000754s ]
+[ 2012-03-29T12:21:41+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_template ] --END-- [ RunTime:0.000842s ]
+[ 2012-03-29T12:21:41+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_parse ] --START--
+[ 2012-03-29T12:21:41+08:00 ] /www/read/ebook/read/33/5 | INFO: Run ParseTemplate Behavior [ RunTime:0.018748s ]
+[ 2012-03-29T12:21:41+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.018854s ]
+[ 2012-03-29T12:21:41+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_filter ] --START--
+[ 2012-03-29T12:21:41+08:00 ] /www/read/ebook/read/33/5 | INFO: Run ContentReplace Behavior [ RunTime:0.000701s ]
+[ 2012-03-29T12:21:41+08:00 ] /www/read/ebook/read/33/5 | INFO: Run TokenBuild Behavior [ RunTime:0.000691s ]
+[ 2012-03-29T12:21:41+08:00 ] /www/read/ebook/read/33/5 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000616s ]
+[ 2012-03-29T12:21:41+08:00 ] /www/read/ebook/read/33/5 | INFO: Run ShowRuntime Behavior [ RunTime:0.000818s ]
+[ 2012-03-29T12:21:41+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003131s ]
+[ 2012-03-29T12:21:41+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_end ] --START--
+[ 2012-03-29T12:21:41+08:00 ] /www/read/ebook/read/33/5 | INFO: Run ShowPageTrace Behavior [ RunTime:0.000859s ]
+[ 2012-03-29T12:21:41+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_end ] --END-- [ RunTime:0.000944s ]
+[ 2012-03-29T12:21:47+08:00 ] /www/read/ebook/read/33/1 | INFO: Tag[ route_check ] --START--
+[ 2012-03-29T12:21:47+08:00 ] /www/read/ebook/read/33/1 | INFO: Run CheckRoute Behavior [ RunTime:0.001259s ]
+[ 2012-03-29T12:21:47+08:00 ] /www/read/ebook/read/33/1 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001399s ]
+[ 2012-03-29T12:21:47+08:00 ] /www/read/ebook/read/33/1 | INFO: Tag[ app_begin ] --START--
+[ 2012-03-29T12:21:47+08:00 ] /www/read/ebook/read/33/1 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000841s ]
+[ 2012-03-29T12:21:47+08:00 ] /www/read/ebook/read/33/1 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000938s ]
+[ 2012-03-29T12:21:47+08:00 ] /www/read/ebook/read/33/1 | SQL: SHOW COLUMNS FROM `bookcontents` [ RunTime:0.004406s ]
+[ 2012-03-29T12:21:47+08:00 ] /www/read/ebook/read/33/1 | SQL: SELECT * FROM `bookcontents` WHERE ( `booksId` = '33' ) AND ( `contentNum` = '1' )  [ RunTime:0.007203s ]
+[ 2012-03-29T12:21:47+08:00 ] /www/read/ebook/read/33/1 | SQL: SHOW COLUMNS FROM `books` [ RunTime:0.004195s ]
+[ 2012-03-29T12:21:47+08:00 ] /www/read/ebook/read/33/1 | SQL: SELECT `bookTitle` FROM `books` WHERE ( `id` = '33' ) LIMIT 1   [ RunTime:0.003744s ]
+[ 2012-03-29T12:21:47+08:00 ] /www/read/ebook/read/33/1 | SQL: SELECT `contentNum` FROM `bookcontents` WHERE ( `booksId` = '33' ) ORDER BY contentNum desc LIMIT 1   [ RunTime:0.000623s ]
+[ 2012-03-29T12:21:47+08:00 ] /www/read/ebook/read/33/1 | SQL: SHOW COLUMNS FROM `booklib` [ RunTime:0.004149s ]
+[ 2012-03-29T12:21:47+08:00 ] /www/read/ebook/read/33/1 | SQL: UPDATE `booklib` SET `contentId`='1',`lastTime`='2012-03-29' WHERE ( `userId` = '3' ) AND ( `bookId` = '33' ) [ RunTime:0.004186s ]
+[ 2012-03-29T12:21:47+08:00 ] /www/read/ebook/read/33/1 | INFO: Tag[ view_template ] --START--
+[ 2012-03-29T12:21:47+08:00 ] /www/read/ebook/read/33/1 | INFO: Run LocationTemplate Behavior [ RunTime:0.000726s ]
+[ 2012-03-29T12:21:47+08:00 ] /www/read/ebook/read/33/1 | INFO: Tag[ view_template ] --END-- [ RunTime:0.000815s ]
+[ 2012-03-29T12:21:47+08:00 ] /www/read/ebook/read/33/1 | INFO: Tag[ view_parse ] --START--
+[ 2012-03-29T12:21:47+08:00 ] /www/read/ebook/read/33/1 | INFO: Run ParseTemplate Behavior [ RunTime:0.018300s ]
+[ 2012-03-29T12:21:47+08:00 ] /www/read/ebook/read/33/1 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.018407s ]
+[ 2012-03-29T12:21:47+08:00 ] /www/read/ebook/read/33/1 | INFO: Tag[ view_filter ] --START--
+[ 2012-03-29T12:21:47+08:00 ] /www/read/ebook/read/33/1 | INFO: Run ContentReplace Behavior [ RunTime:0.000779s ]
+[ 2012-03-29T12:21:47+08:00 ] /www/read/ebook/read/33/1 | INFO: Run TokenBuild Behavior [ RunTime:0.000715s ]
+[ 2012-03-29T12:21:47+08:00 ] /www/read/ebook/read/33/1 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000479s ]
+[ 2012-03-29T12:21:47+08:00 ] /www/read/ebook/read/33/1 | INFO: Run ShowRuntime Behavior [ RunTime:0.000725s ]
+[ 2012-03-29T12:21:47+08:00 ] /www/read/ebook/read/33/1 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003105s ]
+[ 2012-03-29T12:21:47+08:00 ] /www/read/ebook/read/33/1 | INFO: Tag[ view_end ] --START--
+[ 2012-03-29T12:21:47+08:00 ] /www/read/ebook/read/33/1 | INFO: Run ShowPageTrace Behavior [ RunTime:0.000764s ]
+[ 2012-03-29T12:21:47+08:00 ] /www/read/ebook/read/33/1 | INFO: Tag[ view_end ] --END-- [ RunTime:0.000847s ]
+[ 2012-03-29T12:22:00+08:00 ] /www/read/ebook/read/33/2 | INFO: Tag[ route_check ] --START--
+[ 2012-03-29T12:22:00+08:00 ] /www/read/ebook/read/33/2 | INFO: Run CheckRoute Behavior [ RunTime:0.001271s ]
+[ 2012-03-29T12:22:00+08:00 ] /www/read/ebook/read/33/2 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001417s ]
+[ 2012-03-29T12:22:00+08:00 ] /www/read/ebook/read/33/2 | INFO: Tag[ app_begin ] --START--
+[ 2012-03-29T12:22:00+08:00 ] /www/read/ebook/read/33/2 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2012-03-29T12:22:00+08:00 ] /www/read/ebook/read/33/2 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001113s ]
+[ 2012-03-29T12:22:00+08:00 ] /www/read/ebook/read/33/2 | SQL: SHOW COLUMNS FROM `bookcontents` [ RunTime:0.004330s ]
+[ 2012-03-29T12:22:00+08:00 ] /www/read/ebook/read/33/2 | SQL: SELECT * FROM `bookcontents` WHERE ( `booksId` = '33' ) AND ( `contentNum` = '2' )  [ RunTime:0.004089s ]
+[ 2012-03-29T12:22:00+08:00 ] /www/read/ebook/read/33/2 | SQL: SHOW COLUMNS FROM `books` [ RunTime:0.004245s ]
+[ 2012-03-29T12:22:00+08:00 ] /www/read/ebook/read/33/2 | SQL: SELECT `bookTitle` FROM `books` WHERE ( `id` = '33' ) LIMIT 1   [ RunTime:0.003620s ]
+[ 2012-03-29T12:22:00+08:00 ] /www/read/ebook/read/33/2 | SQL: SELECT `contentNum` FROM `bookcontents` WHERE ( `booksId` = '33' ) ORDER BY contentNum desc LIMIT 1   [ RunTime:0.000628s ]
+[ 2012-03-29T12:22:00+08:00 ] /www/read/ebook/read/33/2 | SQL: SHOW COLUMNS FROM `booklib` [ RunTime:0.004213s ]
+[ 2012-03-29T12:22:00+08:00 ] /www/read/ebook/read/33/2 | SQL: UPDATE `booklib` SET `contentId`='2',`lastTime`='2012-03-29' WHERE ( `userId` = '3' ) AND ( `bookId` = '33' ) [ RunTime:0.003861s ]
+[ 2012-03-29T12:22:00+08:00 ] /www/read/ebook/read/33/2 | INFO: Tag[ view_template ] --START--
+[ 2012-03-29T12:22:00+08:00 ] /www/read/ebook/read/33/2 | INFO: Run LocationTemplate Behavior [ RunTime:0.000732s ]
+[ 2012-03-29T12:22:00+08:00 ] /www/read/ebook/read/33/2 | INFO: Tag[ view_template ] --END-- [ RunTime:0.000820s ]
+[ 2012-03-29T12:22:00+08:00 ] /www/read/ebook/read/33/2 | INFO: Tag[ view_parse ] --START--
+[ 2012-03-29T12:22:00+08:00 ] /www/read/ebook/read/33/2 | INFO: Run ParseTemplate Behavior [ RunTime:0.018726s ]
+[ 2012-03-29T12:22:00+08:00 ] /www/read/ebook/read/33/2 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.018835s ]
+[ 2012-03-29T12:22:00+08:00 ] /www/read/ebook/read/33/2 | INFO: Tag[ view_filter ] --START--
+[ 2012-03-29T12:22:00+08:00 ] /www/read/ebook/read/33/2 | INFO: Run ContentReplace Behavior [ RunTime:0.000825s ]
+[ 2012-03-29T12:22:00+08:00 ] /www/read/ebook/read/33/2 | INFO: Run TokenBuild Behavior [ RunTime:0.000929s ]
+[ 2012-03-29T12:22:00+08:00 ] /www/read/ebook/read/33/2 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000506s ]
+[ 2012-03-29T12:22:00+08:00 ] /www/read/ebook/read/33/2 | INFO: Run ShowRuntime Behavior [ RunTime:0.000867s ]
+[ 2012-03-29T12:22:00+08:00 ] /www/read/ebook/read/33/2 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003423s ]
+[ 2012-03-29T12:22:00+08:00 ] /www/read/ebook/read/33/2 | INFO: Tag[ view_end ] --START--
+[ 2012-03-29T12:22:00+08:00 ] /www/read/ebook/read/33/2 | INFO: Run ShowPageTrace Behavior [ RunTime:0.000977s ]
+[ 2012-03-29T12:22:00+08:00 ] /www/read/ebook/read/33/2 | INFO: Tag[ view_end ] --END-- [ RunTime:0.001068s ]
+[ 2012-03-29T12:22:10+08:00 ] /www/read/ebook/read/33/3 | INFO: Tag[ route_check ] --START--
+[ 2012-03-29T12:22:10+08:00 ] /www/read/ebook/read/33/3 | INFO: Run CheckRoute Behavior [ RunTime:0.001281s ]
+[ 2012-03-29T12:22:10+08:00 ] /www/read/ebook/read/33/3 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001423s ]
+[ 2012-03-29T12:22:10+08:00 ] /www/read/ebook/read/33/3 | INFO: Tag[ app_begin ] --START--
+[ 2012-03-29T12:22:10+08:00 ] /www/read/ebook/read/33/3 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000842s ]
+[ 2012-03-29T12:22:10+08:00 ] /www/read/ebook/read/33/3 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000943s ]
+[ 2012-03-29T12:22:10+08:00 ] /www/read/ebook/read/33/3 | SQL: SHOW COLUMNS FROM `bookcontents` [ RunTime:0.007925s ]
+[ 2012-03-29T12:22:10+08:00 ] /www/read/ebook/read/33/3 | SQL: SELECT * FROM `bookcontents` WHERE ( `booksId` = '33' ) AND ( `contentNum` = '3' )  [ RunTime:0.003678s ]
+[ 2012-03-29T12:22:10+08:00 ] /www/read/ebook/read/33/3 | SQL: SHOW COLUMNS FROM `books` [ RunTime:0.004357s ]
+[ 2012-03-29T12:22:10+08:00 ] /www/read/ebook/read/33/3 | SQL: SELECT `bookTitle` FROM `books` WHERE ( `id` = '33' ) LIMIT 1   [ RunTime:0.003303s ]
+[ 2012-03-29T12:22:10+08:00 ] /www/read/ebook/read/33/3 | SQL: SELECT `contentNum` FROM `bookcontents` WHERE ( `booksId` = '33' ) ORDER BY contentNum desc LIMIT 1   [ RunTime:0.000627s ]
+[ 2012-03-29T12:22:10+08:00 ] /www/read/ebook/read/33/3 | SQL: SHOW COLUMNS FROM `booklib` [ RunTime:0.004355s ]
+[ 2012-03-29T12:22:10+08:00 ] /www/read/ebook/read/33/3 | SQL: UPDATE `booklib` SET `contentId`='3',`lastTime`='2012-03-29' WHERE ( `userId` = '3' ) AND ( `bookId` = '33' ) [ RunTime:0.003870s ]
+[ 2012-03-29T12:22:10+08:00 ] /www/read/ebook/read/33/3 | INFO: Tag[ view_template ] --START--
+[ 2012-03-29T12:22:10+08:00 ] /www/read/ebook/read/33/3 | INFO: Run LocationTemplate Behavior [ RunTime:0.000722s ]
+[ 2012-03-29T12:22:10+08:00 ] /www/read/ebook/read/33/3 | INFO: Tag[ view_template ] --END-- [ RunTime:0.000811s ]
+[ 2012-03-29T12:22:10+08:00 ] /www/read/ebook/read/33/3 | INFO: Tag[ view_parse ] --START--
+[ 2012-03-29T12:22:10+08:00 ] /www/read/ebook/read/33/3 | INFO: Run ParseTemplate Behavior [ RunTime:0.019726s ]
+[ 2012-03-29T12:22:10+08:00 ] /www/read/ebook/read/33/3 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.019834s ]
+[ 2012-03-29T12:22:10+08:00 ] /www/read/ebook/read/33/3 | INFO: Tag[ view_filter ] --START--
+[ 2012-03-29T12:22:10+08:00 ] /www/read/ebook/read/33/3 | INFO: Run ContentReplace Behavior [ RunTime:0.000701s ]
+[ 2012-03-29T12:22:10+08:00 ] /www/read/ebook/read/33/3 | INFO: Run TokenBuild Behavior [ RunTime:0.000664s ]
+[ 2012-03-29T12:22:10+08:00 ] /www/read/ebook/read/33/3 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000441s ]
+[ 2012-03-29T12:22:10+08:00 ] /www/read/ebook/read/33/3 | INFO: Run ShowRuntime Behavior [ RunTime:0.000713s ]
+[ 2012-03-29T12:22:10+08:00 ] /www/read/ebook/read/33/3 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002766s ]
+[ 2012-03-29T12:22:10+08:00 ] /www/read/ebook/read/33/3 | INFO: Tag[ view_end ] --START--
+[ 2012-03-29T12:22:10+08:00 ] /www/read/ebook/read/33/3 | INFO: Run ShowPageTrace Behavior [ RunTime:0.000768s ]
+[ 2012-03-29T12:22:10+08:00 ] /www/read/ebook/read/33/3 | INFO: Tag[ view_end ] --END-- [ RunTime:0.000853s ]
+[ 2012-03-29T12:23:34+08:00 ] /www/read/ebook/read/33/4 | INFO: Tag[ route_check ] --START--
+[ 2012-03-29T12:23:34+08:00 ] /www/read/ebook/read/33/4 | INFO: Run CheckRoute Behavior [ RunTime:0.001939s ]
+[ 2012-03-29T12:23:34+08:00 ] /www/read/ebook/read/33/4 | INFO: Tag[ route_check ] --END-- [ RunTime:0.002081s ]
+[ 2012-03-29T12:23:34+08:00 ] /www/read/ebook/read/33/4 | INFO: Tag[ app_begin ] --START--
+[ 2012-03-29T12:23:34+08:00 ] /www/read/ebook/read/33/4 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001863s ]
+[ 2012-03-29T12:23:34+08:00 ] /www/read/ebook/read/33/4 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001976s ]
+[ 2012-03-29T12:23:34+08:00 ] /www/read/ebook/read/33/4 | SQL: SHOW COLUMNS FROM `bookcontents` [ RunTime:0.004446s ]
+[ 2012-03-29T12:23:34+08:00 ] /www/read/ebook/read/33/4 | SQL: SELECT * FROM `bookcontents` WHERE ( `booksId` = '33' ) AND ( `contentNum` = '4' )  [ RunTime:0.004768s ]
+[ 2012-03-29T12:23:34+08:00 ] /www/read/ebook/read/33/4 | SQL: SHOW COLUMNS FROM `books` [ RunTime:0.004301s ]
+[ 2012-03-29T12:23:34+08:00 ] /www/read/ebook/read/33/4 | SQL: SELECT `bookTitle` FROM `books` WHERE ( `id` = '33' ) LIMIT 1   [ RunTime:0.004312s ]
+[ 2012-03-29T12:23:34+08:00 ] /www/read/ebook/read/33/4 | SQL: SELECT `contentNum` FROM `bookcontents` WHERE ( `booksId` = '33' ) ORDER BY contentNum desc LIMIT 1   [ RunTime:0.000653s ]
+[ 2012-03-29T12:23:34+08:00 ] /www/read/ebook/read/33/4 | SQL: SHOW COLUMNS FROM `booklib` [ RunTime:0.004507s ]
+[ 2012-03-29T12:23:34+08:00 ] /www/read/ebook/read/33/4 | SQL: UPDATE `booklib` SET `contentId`='4',`lastTime`='2012-03-29' WHERE ( `userId` = '3' ) AND ( `bookId` = '33' ) [ RunTime:0.003368s ]
+[ 2012-03-29T12:23:34+08:00 ] /www/read/ebook/read/33/4 | INFO: Tag[ view_template ] --START--
+[ 2012-03-29T12:23:34+08:00 ] /www/read/ebook/read/33/4 | INFO: Run LocationTemplate Behavior [ RunTime:0.001450s ]
+[ 2012-03-29T12:23:34+08:00 ] /www/read/ebook/read/33/4 | INFO: Tag[ view_template ] --END-- [ RunTime:0.001544s ]
+[ 2012-03-29T12:23:34+08:00 ] /www/read/ebook/read/33/4 | INFO: Tag[ view_parse ] --START--
+[ 2012-03-29T12:23:34+08:00 ] /www/read/ebook/read/33/4 | INFO: Run ParseTemplate Behavior [ RunTime:0.023744s ]
+[ 2012-03-29T12:23:34+08:00 ] /www/read/ebook/read/33/4 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.023854s ]
+[ 2012-03-29T12:23:34+08:00 ] /www/read/ebook/read/33/4 | INFO: Tag[ view_filter ] --START--
+[ 2012-03-29T12:23:34+08:00 ] /www/read/ebook/read/33/4 | INFO: Run ContentReplace Behavior [ RunTime:0.001508s ]
+[ 2012-03-29T12:23:34+08:00 ] /www/read/ebook/read/33/4 | INFO: Run TokenBuild Behavior [ RunTime:0.001451s ]
+[ 2012-03-29T12:23:34+08:00 ] /www/read/ebook/read/33/4 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001195s ]
+[ 2012-03-29T12:23:34+08:00 ] /www/read/ebook/read/33/4 | INFO: Run ShowRuntime Behavior [ RunTime:0.001483s ]
+[ 2012-03-29T12:23:34+08:00 ] /www/read/ebook/read/33/4 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.005944s ]
+[ 2012-03-29T12:23:34+08:00 ] /www/read/ebook/read/33/4 | INFO: Tag[ view_end ] --START--
+[ 2012-03-29T12:23:34+08:00 ] /www/read/ebook/read/33/4 | INFO: Run ShowPageTrace Behavior [ RunTime:0.001599s ]
+[ 2012-03-29T12:23:34+08:00 ] /www/read/ebook/read/33/4 | INFO: Tag[ view_end ] --END-- [ RunTime:0.001778s ]
+[ 2012-03-29T12:28:45+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ route_check ] --START--
+[ 2012-03-29T12:28:45+08:00 ] /www/read/ebook/read/33/5 | INFO: Run CheckRoute Behavior [ RunTime:0.002022s ]
+[ 2012-03-29T12:28:45+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ route_check ] --END-- [ RunTime:0.002169s ]
+[ 2012-03-29T12:28:45+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ app_begin ] --START--
+[ 2012-03-29T12:28:45+08:00 ] /www/read/ebook/read/33/5 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001523s ]
+[ 2012-03-29T12:28:45+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001630s ]
+[ 2012-03-29T12:28:45+08:00 ] /www/read/ebook/read/33/5 | SQL: SHOW COLUMNS FROM `bookcontents` [ RunTime:0.004460s ]
+[ 2012-03-29T12:28:45+08:00 ] /www/read/ebook/read/33/5 | SQL: SELECT * FROM `bookcontents` WHERE ( `booksId` = '33' ) AND ( `contentNum` = '5' )  [ RunTime:0.003785s ]
+[ 2012-03-29T12:28:45+08:00 ] /www/read/ebook/read/33/5 | SQL: SHOW COLUMNS FROM `books` [ RunTime:0.004363s ]
+[ 2012-03-29T12:28:45+08:00 ] /www/read/ebook/read/33/5 | SQL: SELECT `bookTitle` FROM `books` WHERE ( `id` = '33' ) LIMIT 1   [ RunTime:0.003637s ]
+[ 2012-03-29T12:28:45+08:00 ] /www/read/ebook/read/33/5 | SQL: SELECT `contentNum` FROM `bookcontents` WHERE ( `booksId` = '33' ) ORDER BY contentNum desc LIMIT 1   [ RunTime:0.000653s ]
+[ 2012-03-29T12:28:45+08:00 ] /www/read/ebook/read/33/5 | SQL: SHOW COLUMNS FROM `booklib` [ RunTime:0.004394s ]
+[ 2012-03-29T12:28:45+08:00 ] /www/read/ebook/read/33/5 | SQL: UPDATE `booklib` SET `contentId`='5',`lastTime`='2012-03-29' WHERE ( `userId` = '3' ) AND ( `bookId` = '33' ) [ RunTime:0.004295s ]
+[ 2012-03-29T12:28:45+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_template ] --START--
+[ 2012-03-29T12:28:45+08:00 ] /www/read/ebook/read/33/5 | INFO: Run LocationTemplate Behavior [ RunTime:0.002998s ]
+[ 2012-03-29T12:28:45+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_template ] --END-- [ RunTime:0.003100s ]
+[ 2012-03-29T12:28:45+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_parse ] --START--
+[ 2012-03-29T12:28:45+08:00 ] /www/read/ebook/read/33/5 | INFO: Run ParseTemplate Behavior [ RunTime:0.024108s ]
+[ 2012-03-29T12:28:45+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.024216s ]
+[ 2012-03-29T12:28:45+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_filter ] --START--
+[ 2012-03-29T12:28:45+08:00 ] /www/read/ebook/read/33/5 | INFO: Run ContentReplace Behavior [ RunTime:0.001426s ]
+[ 2012-03-29T12:28:45+08:00 ] /www/read/ebook/read/33/5 | INFO: Run TokenBuild Behavior [ RunTime:0.001404s ]
+[ 2012-03-29T12:28:45+08:00 ] /www/read/ebook/read/33/5 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001184s ]
+[ 2012-03-29T12:28:45+08:00 ] /www/read/ebook/read/33/5 | INFO: Run ShowRuntime Behavior [ RunTime:0.001488s ]
+[ 2012-03-29T12:28:45+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.005777s ]
+[ 2012-03-29T12:28:45+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_end ] --START--
+[ 2012-03-29T12:28:45+08:00 ] /www/read/ebook/read/33/5 | INFO: Run ShowPageTrace Behavior [ RunTime:0.001533s ]
+[ 2012-03-29T12:28:45+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_end ] --END-- [ RunTime:0.001623s ]
+[ 2012-03-29T12:29:16+08:00 ] /www/read/logout | INFO: Tag[ route_check ] --START--
+[ 2012-03-29T12:29:16+08:00 ] /www/read/logout | INFO: Run CheckRoute Behavior [ RunTime:0.001259s ]
+[ 2012-03-29T12:29:16+08:00 ] /www/read/logout | INFO: Tag[ route_check ] --END-- [ RunTime:0.001397s ]
+[ 2012-03-29T12:29:16+08:00 ] /www/read/logout | INFO: Tag[ app_begin ] --START--
+[ 2012-03-29T12:29:16+08:00 ] /www/read/logout | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000902s ]
+[ 2012-03-29T12:29:16+08:00 ] /www/read/logout | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001015s ]
+[ 2012-03-29T12:29:17+08:00 ] /www/read/login | INFO: Tag[ route_check ] --START--
+[ 2012-03-29T12:29:17+08:00 ] /www/read/login | INFO: Run CheckRoute Behavior [ RunTime:0.001317s ]
+[ 2012-03-29T12:29:17+08:00 ] /www/read/login | INFO: Tag[ route_check ] --END-- [ RunTime:0.001460s ]
+[ 2012-03-29T12:29:17+08:00 ] /www/read/login | INFO: Tag[ app_begin ] --START--
+[ 2012-03-29T12:29:17+08:00 ] /www/read/login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000840s ]
+[ 2012-03-29T12:29:17+08:00 ] /www/read/login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000943s ]
+[ 2012-03-29T12:29:17+08:00 ] /www/read/login | NOTIC: [8] Undefined index:  userName functions.php 第 441 行.
+[ 2012-03-29T12:29:17+08:00 ] /www/read/login | NOTIC: [8] Undefined index:  logout functions.php 第 441 行.
+[ 2012-03-29T12:29:17+08:00 ] /www/read/login | INFO: Tag[ view_template ] --START--
+[ 2012-03-29T12:29:17+08:00 ] /www/read/login | INFO: Run LocationTemplate Behavior [ RunTime:0.001461s ]
+[ 2012-03-29T12:29:17+08:00 ] /www/read/login | INFO: Tag[ view_template ] --END-- [ RunTime:0.001556s ]
+[ 2012-03-29T12:29:17+08:00 ] /www/read/login | INFO: Tag[ view_parse ] --START--
+[ 2012-03-29T12:29:17+08:00 ] /www/read/login | INFO: Run ParseTemplate Behavior [ RunTime:0.018623s ]
+[ 2012-03-29T12:29:17+08:00 ] /www/read/login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.018730s ]
+[ 2012-03-29T12:29:17+08:00 ] /www/read/login | INFO: Tag[ view_filter ] --START--
+[ 2012-03-29T12:29:17+08:00 ] /www/read/login | INFO: Run ContentReplace Behavior [ RunTime:0.000660s ]
+[ 2012-03-29T12:29:17+08:00 ] /www/read/login | INFO: Run TokenBuild Behavior [ RunTime:0.000692s ]
+[ 2012-03-29T12:29:17+08:00 ] /www/read/login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000462s ]
+[ 2012-03-29T12:29:17+08:00 ] /www/read/login | INFO: Run ShowRuntime Behavior [ RunTime:0.000723s ]
+[ 2012-03-29T12:29:17+08:00 ] /www/read/login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002785s ]
+[ 2012-03-29T12:29:17+08:00 ] /www/read/login | INFO: Tag[ view_end ] --START--
+[ 2012-03-29T12:29:17+08:00 ] /www/read/login | INFO: Run ShowPageTrace Behavior [ RunTime:0.000791s ]
+[ 2012-03-29T12:29:17+08:00 ] /www/read/login | INFO: Tag[ view_end ] --END-- [ RunTime:0.000873s ]
+[ 2012-03-29T12:29:34+08:00 ] /www/read/check | INFO: Tag[ route_check ] --START--
+[ 2012-03-29T12:29:34+08:00 ] /www/read/check | INFO: Run CheckRoute Behavior [ RunTime:0.001240s ]
+[ 2012-03-29T12:29:34+08:00 ] /www/read/check | INFO: Tag[ route_check ] --END-- [ RunTime:0.001378s ]
+[ 2012-03-29T12:29:34+08:00 ] /www/read/check | INFO: Tag[ app_begin ] --START--
+[ 2012-03-29T12:29:34+08:00 ] /www/read/check | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000846s ]
+[ 2012-03-29T12:29:34+08:00 ] /www/read/check | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000945s ]
+[ 2012-03-29T12:29:34+08:00 ] /www/read/check | SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004688s ]
+[ 2012-03-29T12:29:34+08:00 ] /www/read/check | SQL: SELECT `id` FROM `user` WHERE ( `userName` = '1' ) AND ( `userPass` = '1' ) AND ( `state` = 1 ) LIMIT 1   [ RunTime:0.003571s ]
+[ 2012-03-29T12:29:34+08:00 ] /www/read/check | INFO: Tag[ view_template ] --START--
+[ 2012-03-29T12:29:34+08:00 ] /www/read/check | INFO: Run LocationTemplate Behavior [ RunTime:0.001660s ]
+[ 2012-03-29T12:29:34+08:00 ] /www/read/check | INFO: Tag[ view_template ] --END-- [ RunTime:0.001771s ]
+[ 2012-03-29T12:29:34+08:00 ] /www/read/check | INFO: Tag[ view_parse ] --START--
+[ 2012-03-29T12:29:34+08:00 ] /www/read/check | INFO: Run ParseTemplate Behavior [ RunTime:0.018791s ]
+[ 2012-03-29T12:29:34+08:00 ] /www/read/check | INFO: Tag[ view_parse ] --END-- [ RunTime:0.018898s ]
+[ 2012-03-29T12:29:34+08:00 ] /www/read/check | INFO: Tag[ view_filter ] --START--
+[ 2012-03-29T12:29:34+08:00 ] /www/read/check | INFO: Run ContentReplace Behavior [ RunTime:0.000624s ]
+[ 2012-03-29T12:29:34+08:00 ] /www/read/check | INFO: Run TokenBuild Behavior [ RunTime:0.000631s ]
+[ 2012-03-29T12:29:34+08:00 ] /www/read/check | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000429s ]
+[ 2012-03-29T12:29:34+08:00 ] /www/read/check | INFO: Run ShowRuntime Behavior [ RunTime:0.000694s ]
+[ 2012-03-29T12:29:34+08:00 ] /www/read/check | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002621s ]
+[ 2012-03-29T12:29:34+08:00 ] /www/read/check | INFO: Tag[ view_end ] --START--
+[ 2012-03-29T12:29:34+08:00 ] /www/read/check | INFO: Run ShowPageTrace Behavior [ RunTime:0.000747s ]
+[ 2012-03-29T12:29:34+08:00 ] /www/read/check | INFO: Tag[ view_end ] --END-- [ RunTime:0.000829s ]
+[ 2012-03-29T13:03:41+08:00 ] /www/read/ | INFO: Tag[ app_begin ] --START--
+[ 2012-03-29T13:03:41+08:00 ] /www/read/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001543s ]
+[ 2012-03-29T13:03:41+08:00 ] /www/read/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001696s ]
+[ 2012-03-29T13:03:41+08:00 ] /www/read/login | INFO: Tag[ route_check ] --START--
+[ 2012-03-29T13:03:41+08:00 ] /www/read/login | INFO: Run CheckRoute Behavior [ RunTime:0.001924s ]
+[ 2012-03-29T13:03:41+08:00 ] /www/read/login | INFO: Tag[ route_check ] --END-- [ RunTime:0.002065s ]
+[ 2012-03-29T13:03:41+08:00 ] /www/read/login | INFO: Tag[ app_begin ] --START--
+[ 2012-03-29T13:03:41+08:00 ] /www/read/login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000833s ]
+[ 2012-03-29T13:03:41+08:00 ] /www/read/login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000933s ]
+[ 2012-03-29T13:03:41+08:00 ] /www/read/login | NOTIC: [8] Undefined index:  userName functions.php 第 441 行.
+[ 2012-03-29T13:03:41+08:00 ] /www/read/login | NOTIC: [8] Undefined index:  logout functions.php 第 441 行.
+[ 2012-03-29T13:03:41+08:00 ] /www/read/login | INFO: Tag[ view_template ] --START--
+[ 2012-03-29T13:03:41+08:00 ] /www/read/login | INFO: Run LocationTemplate Behavior [ RunTime:0.002231s ]
+[ 2012-03-29T13:03:41+08:00 ] /www/read/login | INFO: Tag[ view_template ] --END-- [ RunTime:0.002328s ]
+[ 2012-03-29T13:03:41+08:00 ] /www/read/login | INFO: Tag[ view_parse ] --START--
+[ 2012-03-29T13:03:41+08:00 ] /www/read/login | INFO: Run ParseTemplate Behavior [ RunTime:0.022857s ]
+[ 2012-03-29T13:03:41+08:00 ] /www/read/login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.022969s ]
+[ 2012-03-29T13:03:41+08:00 ] /www/read/login | INFO: Tag[ view_filter ] --START--
+[ 2012-03-29T13:03:41+08:00 ] /www/read/login | INFO: Run ContentReplace Behavior [ RunTime:0.001431s ]
+[ 2012-03-29T13:03:41+08:00 ] /www/read/login | INFO: Run TokenBuild Behavior [ RunTime:0.001490s ]
+[ 2012-03-29T13:03:41+08:00 ] /www/read/login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001213s ]
+[ 2012-03-29T13:03:41+08:00 ] /www/read/login | INFO: Run ShowRuntime Behavior [ RunTime:0.002413s ]
+[ 2012-03-29T13:03:41+08:00 ] /www/read/login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.006820s ]
+[ 2012-03-29T13:03:41+08:00 ] /www/read/login | INFO: Tag[ view_end ] --START--
+[ 2012-03-29T13:03:41+08:00 ] /www/read/login | INFO: Run ShowPageTrace Behavior [ RunTime:0.001525s ]
+[ 2012-03-29T13:03:41+08:00 ] /www/read/login | INFO: Tag[ view_end ] --END-- [ RunTime:0.001613s ]
+[ 2012-03-29T13:03:49+08:00 ] /www/read/check | INFO: Tag[ route_check ] --START--
+[ 2012-03-29T13:03:49+08:00 ] /www/read/check | INFO: Run CheckRoute Behavior [ RunTime:0.001264s ]
+[ 2012-03-29T13:03:49+08:00 ] /www/read/check | INFO: Tag[ route_check ] --END-- [ RunTime:0.001407s ]
+[ 2012-03-29T13:03:49+08:00 ] /www/read/check | INFO: Tag[ app_begin ] --START--
+[ 2012-03-29T13:03:49+08:00 ] /www/read/check | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000845s ]
+[ 2012-03-29T13:03:49+08:00 ] /www/read/check | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000946s ]
+[ 2012-03-29T13:03:49+08:00 ] /www/read/check | SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010721s ]
+[ 2012-03-29T13:03:49+08:00 ] /www/read/check | SQL: SELECT `id` FROM `user` WHERE ( `userName` = 'user' ) AND ( `userPass` = 'user' ) AND ( `state` = 1 ) LIMIT 1   [ RunTime:0.007118s ]
+[ 2012-03-29T13:03:49+08:00 ] /www/read/index | INFO: Tag[ route_check ] --START--
+[ 2012-03-29T13:03:49+08:00 ] /www/read/index | INFO: Run CheckRoute Behavior [ RunTime:0.001277s ]
+[ 2012-03-29T13:03:49+08:00 ] /www/read/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001418s ]
+[ 2012-03-29T13:03:49+08:00 ] /www/read/index | INFO: Tag[ app_begin ] --START--
+[ 2012-03-29T13:03:49+08:00 ] /www/read/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000843s ]
+[ 2012-03-29T13:03:49+08:00 ] /www/read/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000943s ]
+[ 2012-03-29T13:03:49+08:00 ] /www/read/index | SQL: SHOW COLUMNS FROM `books` [ RunTime:0.005278s ]
+[ 2012-03-29T13:03:49+08:00 ] /www/read/index | SQL: SELECT * FROM `books`  [ RunTime:0.003627s ]
+[ 2012-03-29T13:03:49+08:00 ] /www/read/index | SQL: SHOW COLUMNS FROM `booklib` [ RunTime:0.004626s ]
+[ 2012-03-29T13:03:49+08:00 ] /www/read/index | SQL: SELECT * FROM `booklib` WHERE ( `userId` = '3' )  [ RunTime:0.003753s ]
+[ 2012-03-29T13:03:49+08:00 ] /www/read/index | INFO: Tag[ view_template ] --START--
+[ 2012-03-29T13:03:49+08:00 ] /www/read/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001551s ]
+[ 2012-03-29T13:03:49+08:00 ] /www/read/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001650s ]
+[ 2012-03-29T13:03:49+08:00 ] /www/read/index | INFO: Tag[ view_parse ] --START--
+[ 2012-03-29T13:03:49+08:00 ] /www/read/index | INFO: Run ParseTemplate Behavior [ RunTime:0.021957s ]
+[ 2012-03-29T13:03:49+08:00 ] /www/read/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.022213s ]
+[ 2012-03-29T13:03:49+08:00 ] /www/read/index | INFO: Tag[ view_filter ] --START--
+[ 2012-03-29T13:03:49+08:00 ] /www/read/index | INFO: Run ContentReplace Behavior [ RunTime:0.000893s ]
+[ 2012-03-29T13:03:49+08:00 ] /www/read/index | INFO: Run TokenBuild Behavior [ RunTime:0.000704s ]
+[ 2012-03-29T13:03:49+08:00 ] /www/read/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000471s ]
+[ 2012-03-29T13:03:49+08:00 ] /www/read/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000734s ]
+[ 2012-03-29T13:03:49+08:00 ] /www/read/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003066s ]
+[ 2012-03-29T13:03:49+08:00 ] /www/read/index | INFO: Tag[ view_end ] --START--
+[ 2012-03-29T13:03:49+08:00 ] /www/read/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000771s ]
+[ 2012-03-29T13:03:49+08:00 ] /www/read/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000867s ]
+[ 2012-03-29T13:03:52+08:00 ] /www/read/Libary | INFO: Tag[ route_check ] --START--
+[ 2012-03-29T13:03:52+08:00 ] /www/read/Libary | INFO: Run CheckRoute Behavior [ RunTime:0.001429s ]
+[ 2012-03-29T13:03:52+08:00 ] /www/read/Libary | INFO: Tag[ route_check ] --END-- [ RunTime:0.001577s ]
+[ 2012-03-29T13:03:52+08:00 ] /www/read/Libary | INFO: Tag[ app_begin ] --START--
+[ 2012-03-29T13:03:52+08:00 ] /www/read/Libary | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000877s ]
+[ 2012-03-29T13:03:52+08:00 ] /www/read/Libary | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000983s ]
+[ 2012-03-29T13:03:52+08:00 ] /www/read/Libary | SQL: SHOW COLUMNS FROM `booklib` [ RunTime:0.004752s ]
+[ 2012-03-29T13:03:52+08:00 ] /www/read/Libary | SQL: SELECT * FROM `booklib` WHERE ( `userId` = '3' )  [ RunTime:0.003588s ]
+[ 2012-03-29T13:03:52+08:00 ] /www/read/Libary | SQL: SHOW COLUMNS FROM `books` [ RunTime:0.004172s ]
+[ 2012-03-29T13:03:52+08:00 ] /www/read/Libary | SQL: SELECT * FROM `books`  [ RunTime:0.003678s ]
+[ 2012-03-29T13:03:52+08:00 ] /www/read/Libary | INFO: Tag[ view_template ] --START--
+[ 2012-03-29T13:03:52+08:00 ] /www/read/Libary | INFO: Run LocationTemplate Behavior [ RunTime:0.001575s ]
+[ 2012-03-29T13:03:52+08:00 ] /www/read/Libary | INFO: Tag[ view_template ] --END-- [ RunTime:0.001672s ]
+[ 2012-03-29T13:03:52+08:00 ] /www/read/Libary | INFO: Tag[ view_parse ] --START--
+[ 2012-03-29T13:03:52+08:00 ] /www/read/Libary | INFO: Run ParseTemplate Behavior [ RunTime:0.025226s ]
+[ 2012-03-29T13:03:52+08:00 ] /www/read/Libary | INFO: Tag[ view_parse ] --END-- [ RunTime:0.025334s ]
+[ 2012-03-29T13:03:52+08:00 ] /www/read/Libary | INFO: Tag[ view_filter ] --START--
+[ 2012-03-29T13:03:52+08:00 ] /www/read/Libary | INFO: Run ContentReplace Behavior [ RunTime:0.000689s ]
+[ 2012-03-29T13:03:52+08:00 ] /www/read/Libary | INFO: Run TokenBuild Behavior [ RunTime:0.000659s ]
+[ 2012-03-29T13:03:52+08:00 ] /www/read/Libary | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000447s ]
+[ 2012-03-29T13:03:52+08:00 ] /www/read/Libary | INFO: Run ShowRuntime Behavior [ RunTime:0.000727s ]
+[ 2012-03-29T13:03:52+08:00 ] /www/read/Libary | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002772s ]
+[ 2012-03-29T13:03:52+08:00 ] /www/read/Libary | INFO: Tag[ view_end ] --START--
+[ 2012-03-29T13:03:52+08:00 ] /www/read/Libary | INFO: Run ShowPageTrace Behavior [ RunTime:0.001126s ]
+[ 2012-03-29T13:03:52+08:00 ] /www/read/Libary | INFO: Tag[ view_end ] --END-- [ RunTime:0.001221s ]
+[ 2012-03-29T13:03:52+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ route_check ] --START--
+[ 2012-03-29T13:03:52+08:00 ] /www/read/ebook/read/33/5 | INFO: Run CheckRoute Behavior [ RunTime:0.001232s ]
+[ 2012-03-29T13:03:52+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001371s ]
+[ 2012-03-29T13:03:52+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ app_begin ] --START--
+[ 2012-03-29T13:03:52+08:00 ] /www/read/ebook/read/33/5 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000848s ]
+[ 2012-03-29T13:03:52+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000949s ]
+[ 2012-03-29T13:03:52+08:00 ] /www/read/ebook/read/33/5 | SQL: SHOW COLUMNS FROM `bookcontents` [ RunTime:0.004857s ]
+[ 2012-03-29T13:03:52+08:00 ] /www/read/ebook/read/33/5 | SQL: SELECT * FROM `bookcontents` WHERE ( `booksId` = '33' ) AND ( `contentNum` = '5' )  [ RunTime:0.003651s ]
+[ 2012-03-29T13:03:52+08:00 ] /www/read/ebook/read/33/5 | SQL: SHOW COLUMNS FROM `books` [ RunTime:0.004373s ]
+[ 2012-03-29T13:03:52+08:00 ] /www/read/ebook/read/33/5 | SQL: SELECT `bookTitle` FROM `books` WHERE ( `id` = '33' ) LIMIT 1   [ RunTime:0.003375s ]
+[ 2012-03-29T13:03:52+08:00 ] /www/read/ebook/read/33/5 | SQL: SELECT `contentNum` FROM `bookcontents` WHERE ( `booksId` = '33' ) ORDER BY contentNum desc LIMIT 1   [ RunTime:0.000644s ]
+[ 2012-03-29T13:03:52+08:00 ] /www/read/ebook/read/33/5 | SQL: SHOW COLUMNS FROM `booklib` [ RunTime:0.004276s ]
+[ 2012-03-29T13:03:52+08:00 ] /www/read/ebook/read/33/5 | SQL: UPDATE `booklib` SET `contentId`='5',`lastTime`='2012-03-29' WHERE ( `userId` = '3' ) AND ( `bookId` = '33' ) [ RunTime:0.003323s ]
+[ 2012-03-29T13:03:52+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_template ] --START--
+[ 2012-03-29T13:03:52+08:00 ] /www/read/ebook/read/33/5 | INFO: Run LocationTemplate Behavior [ RunTime:0.001545s ]
+[ 2012-03-29T13:03:52+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_template ] --END-- [ RunTime:0.001676s ]
+[ 2012-03-29T13:03:52+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_parse ] --START--
+[ 2012-03-29T13:03:53+08:00 ] /www/read/ebook/read/33/5 | INFO: Run ParseTemplate Behavior [ RunTime:0.019088s ]
+[ 2012-03-29T13:03:53+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.019197s ]
+[ 2012-03-29T13:03:53+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_filter ] --START--
+[ 2012-03-29T13:03:53+08:00 ] /www/read/ebook/read/33/5 | INFO: Run ContentReplace Behavior [ RunTime:0.000702s ]
+[ 2012-03-29T13:03:53+08:00 ] /www/read/ebook/read/33/5 | INFO: Run TokenBuild Behavior [ RunTime:0.000650s ]
+[ 2012-03-29T13:03:53+08:00 ] /www/read/ebook/read/33/5 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000446s ]
+[ 2012-03-29T13:03:53+08:00 ] /www/read/ebook/read/33/5 | INFO: Run ShowRuntime Behavior [ RunTime:0.000723s ]
+[ 2012-03-29T13:03:53+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002772s ]
+[ 2012-03-29T13:03:53+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_end ] --START--
+[ 2012-03-29T13:03:53+08:00 ] /www/read/ebook/read/33/5 | INFO: Run ShowPageTrace Behavior [ RunTime:0.000779s ]
+[ 2012-03-29T13:03:53+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_end ] --END-- [ RunTime:0.000863s ]
+[ 2012-03-29T13:03:59+08:00 ] /www/read/Libary | INFO: Tag[ route_check ] --START--
+[ 2012-03-29T13:03:59+08:00 ] /www/read/Libary | INFO: Run CheckRoute Behavior [ RunTime:0.001264s ]
+[ 2012-03-29T13:03:59+08:00 ] /www/read/Libary | INFO: Tag[ route_check ] --END-- [ RunTime:0.001404s ]
+[ 2012-03-29T13:03:59+08:00 ] /www/read/Libary | INFO: Tag[ app_begin ] --START--
+[ 2012-03-29T13:03:59+08:00 ] /www/read/Libary | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001001s ]
+[ 2012-03-29T13:03:59+08:00 ] /www/read/Libary | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001117s ]
+[ 2012-03-29T13:03:59+08:00 ] /www/read/Libary | SQL: SHOW COLUMNS FROM `booklib` [ RunTime:0.004378s ]
+[ 2012-03-29T13:03:59+08:00 ] /www/read/Libary | SQL: SELECT * FROM `booklib` WHERE ( `userId` = '3' )  [ RunTime:0.003477s ]
+[ 2012-03-29T13:03:59+08:00 ] /www/read/Libary | SQL: SHOW COLUMNS FROM `books` [ RunTime:0.004328s ]
+[ 2012-03-29T13:03:59+08:00 ] /www/read/Libary | SQL: SELECT * FROM `books`  [ RunTime:0.003501s ]
+[ 2012-03-29T13:03:59+08:00 ] /www/read/Libary | INFO: Tag[ view_template ] --START--
+[ 2012-03-29T13:03:59+08:00 ] /www/read/Libary | INFO: Run LocationTemplate Behavior [ RunTime:0.000867s ]
+[ 2012-03-29T13:03:59+08:00 ] /www/read/Libary | INFO: Tag[ view_template ] --END-- [ RunTime:0.000965s ]
+[ 2012-03-29T13:03:59+08:00 ] /www/read/Libary | INFO: Tag[ view_parse ] --START--
+[ 2012-03-29T13:03:59+08:00 ] /www/read/Libary | INFO: Run ParseTemplate Behavior [ RunTime:0.025314s ]
+[ 2012-03-29T13:03:59+08:00 ] /www/read/Libary | INFO: Tag[ view_parse ] --END-- [ RunTime:0.025423s ]
+[ 2012-03-29T13:03:59+08:00 ] /www/read/Libary | INFO: Tag[ view_filter ] --START--
+[ 2012-03-29T13:03:59+08:00 ] /www/read/Libary | INFO: Run ContentReplace Behavior [ RunTime:0.000653s ]
+[ 2012-03-29T13:03:59+08:00 ] /www/read/Libary | INFO: Run TokenBuild Behavior [ RunTime:0.000695s ]
+[ 2012-03-29T13:03:59+08:00 ] /www/read/Libary | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000476s ]
+[ 2012-03-29T13:03:59+08:00 ] /www/read/Libary | INFO: Run ShowRuntime Behavior [ RunTime:0.000738s ]
+[ 2012-03-29T13:03:59+08:00 ] /www/read/Libary | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002816s ]
+[ 2012-03-29T13:03:59+08:00 ] /www/read/Libary | INFO: Tag[ view_end ] --START--
+[ 2012-03-29T13:03:59+08:00 ] /www/read/Libary | INFO: Run ShowPageTrace Behavior [ RunTime:0.000770s ]
+[ 2012-03-29T13:03:59+08:00 ] /www/read/Libary | INFO: Tag[ view_end ] --END-- [ RunTime:0.000852s ]
+[ 2012-03-29T13:04:36+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ route_check ] --START--
+[ 2012-03-29T13:04:36+08:00 ] /www/read/ebook/read/33/5 | INFO: Run CheckRoute Behavior [ RunTime:0.001251s ]
+[ 2012-03-29T13:04:36+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001390s ]
+[ 2012-03-29T13:04:36+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ app_begin ] --START--
+[ 2012-03-29T13:04:36+08:00 ] /www/read/ebook/read/33/5 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000841s ]
+[ 2012-03-29T13:04:36+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000955s ]
+[ 2012-03-29T13:04:36+08:00 ] /www/read/ebook/read/33/5 | SQL: SHOW COLUMNS FROM `bookcontents` [ RunTime:0.004349s ]
+[ 2012-03-29T13:04:37+08:00 ] /www/read/ebook/read/33/5 | SQL: SELECT * FROM `bookcontents` WHERE ( `booksId` = '33' ) AND ( `contentNum` = '5' )  [ RunTime:0.010113s ]
+[ 2012-03-29T13:04:37+08:00 ] /www/read/ebook/read/33/5 | SQL: SHOW COLUMNS FROM `books` [ RunTime:0.004295s ]
+[ 2012-03-29T13:04:37+08:00 ] /www/read/ebook/read/33/5 | SQL: SELECT `bookTitle` FROM `books` WHERE ( `id` = '33' ) LIMIT 1   [ RunTime:0.004189s ]
+[ 2012-03-29T13:04:37+08:00 ] /www/read/ebook/read/33/5 | SQL: SELECT `contentNum` FROM `bookcontents` WHERE ( `booksId` = '33' ) ORDER BY contentNum desc LIMIT 1   [ RunTime:0.000665s ]
+[ 2012-03-29T13:04:37+08:00 ] /www/read/ebook/read/33/5 | SQL: SHOW COLUMNS FROM `booklib` [ RunTime:0.004195s ]
+[ 2012-03-29T13:04:37+08:00 ] /www/read/ebook/read/33/5 | SQL: UPDATE `booklib` SET `contentId`='5',`lastTime`='2012-03-29' WHERE ( `userId` = '3' ) AND ( `bookId` = '33' ) [ RunTime:0.003948s ]
+[ 2012-03-29T13:04:37+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_template ] --START--
+[ 2012-03-29T13:04:37+08:00 ] /www/read/ebook/read/33/5 | INFO: Run LocationTemplate Behavior [ RunTime:0.000749s ]
+[ 2012-03-29T13:04:37+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_template ] --END-- [ RunTime:0.000837s ]
+[ 2012-03-29T13:04:37+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_parse ] --START--
+[ 2012-03-29T13:04:37+08:00 ] /www/read/ebook/read/33/5 | INFO: Run ParseTemplate Behavior [ RunTime:0.018703s ]
+[ 2012-03-29T13:04:37+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.018812s ]
+[ 2012-03-29T13:04:37+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_filter ] --START--
+[ 2012-03-29T13:04:37+08:00 ] /www/read/ebook/read/33/5 | INFO: Run ContentReplace Behavior [ RunTime:0.000706s ]
+[ 2012-03-29T13:04:37+08:00 ] /www/read/ebook/read/33/5 | INFO: Run TokenBuild Behavior [ RunTime:0.000672s ]
+[ 2012-03-29T13:04:37+08:00 ] /www/read/ebook/read/33/5 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000541s ]
+[ 2012-03-29T13:04:37+08:00 ] /www/read/ebook/read/33/5 | INFO: Run ShowRuntime Behavior [ RunTime:0.000909s ]
+[ 2012-03-29T13:04:37+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003101s ]
+[ 2012-03-29T13:04:37+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_end ] --START--
+[ 2012-03-29T13:04:37+08:00 ] /www/read/ebook/read/33/5 | INFO: Run ShowPageTrace Behavior [ RunTime:0.000850s ]
+[ 2012-03-29T13:04:37+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_end ] --END-- [ RunTime:0.000936s ]
+[ 2012-03-29T13:08:59+08:00 ] /www/read/Libary | INFO: Tag[ route_check ] --START--
+[ 2012-03-29T13:08:59+08:00 ] /www/read/Libary | INFO: Run CheckRoute Behavior [ RunTime:0.001952s ]
+[ 2012-03-29T13:08:59+08:00 ] /www/read/Libary | INFO: Tag[ route_check ] --END-- [ RunTime:0.002092s ]
+[ 2012-03-29T13:08:59+08:00 ] /www/read/Libary | INFO: Tag[ app_begin ] --START--
+[ 2012-03-29T13:08:59+08:00 ] /www/read/Libary | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001499s ]
+[ 2012-03-29T13:08:59+08:00 ] /www/read/Libary | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001599s ]
+[ 2012-03-29T13:08:59+08:00 ] /www/read/Libary | SQL: SHOW COLUMNS FROM `booklib` [ RunTime:0.004465s ]
+[ 2012-03-29T13:08:59+08:00 ] /www/read/Libary | SQL: SELECT * FROM `booklib` WHERE ( `userId` = '3' )  [ RunTime:0.004290s ]
+[ 2012-03-29T13:08:59+08:00 ] /www/read/Libary | SQL: SHOW COLUMNS FROM `books` [ RunTime:0.004249s ]
+[ 2012-03-29T13:08:59+08:00 ] /www/read/Libary | SQL: SELECT * FROM `books`  [ RunTime:0.003419s ]
+[ 2012-03-29T13:08:59+08:00 ] /www/read/Libary | INFO: Tag[ view_template ] --START--
+[ 2012-03-29T13:08:59+08:00 ] /www/read/Libary | INFO: Run LocationTemplate Behavior [ RunTime:0.002273s ]
+[ 2012-03-29T13:08:59+08:00 ] /www/read/Libary | INFO: Tag[ view_template ] --END-- [ RunTime:0.002372s ]
+[ 2012-03-29T13:08:59+08:00 ] /www/read/Libary | INFO: Tag[ view_parse ] --START--
+[ 2012-03-29T13:08:59+08:00 ] /www/read/Libary | INFO: Run ParseTemplate Behavior [ RunTime:0.030203s ]
+[ 2012-03-29T13:08:59+08:00 ] /www/read/Libary | INFO: Tag[ view_parse ] --END-- [ RunTime:0.030474s ]
+[ 2012-03-29T13:08:59+08:00 ] /www/read/Libary | INFO: Tag[ view_filter ] --START--
+[ 2012-03-29T13:08:59+08:00 ] /www/read/Libary | INFO: Run ContentReplace Behavior [ RunTime:0.001393s ]
+[ 2012-03-29T13:08:59+08:00 ] /www/read/Libary | INFO: Run TokenBuild Behavior [ RunTime:0.001391s ]
+[ 2012-03-29T13:08:59+08:00 ] /www/read/Libary | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001173s ]
+[ 2012-03-29T13:08:59+08:00 ] /www/read/Libary | INFO: Run ShowRuntime Behavior [ RunTime:0.001443s ]
+[ 2012-03-29T13:08:59+08:00 ] /www/read/Libary | INFO: Tag[ view_filter ] --END-- [ RunTime:0.005671s ]
+[ 2012-03-29T13:08:59+08:00 ] /www/read/Libary | INFO: Tag[ view_end ] --START--
+[ 2012-03-29T13:08:59+08:00 ] /www/read/Libary | INFO: Run ShowPageTrace Behavior [ RunTime:0.001530s ]
+[ 2012-03-29T13:08:59+08:00 ] /www/read/Libary | INFO: Tag[ view_end ] --END-- [ RunTime:0.001621s ]
+[ 2012-03-29T13:09:32+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ route_check ] --START--
+[ 2012-03-29T13:09:32+08:00 ] /www/read/ebook/read/33/5 | INFO: Run CheckRoute Behavior [ RunTime:0.001249s ]
+[ 2012-03-29T13:09:32+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001402s ]
+[ 2012-03-29T13:09:32+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ app_begin ] --START--
+[ 2012-03-29T13:09:32+08:00 ] /www/read/ebook/read/33/5 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000852s ]
+[ 2012-03-29T13:09:32+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000954s ]
+[ 2012-03-29T13:09:32+08:00 ] /www/read/ebook/read/33/5 | SQL: SHOW COLUMNS FROM `bookcontents` [ RunTime:0.004654s ]
+[ 2012-03-29T13:09:32+08:00 ] /www/read/ebook/read/33/5 | SQL: SELECT * FROM `bookcontents` WHERE ( `booksId` = '33' ) AND ( `contentNum` = '5' )  [ RunTime:0.003543s ]
+[ 2012-03-29T13:09:32+08:00 ] /www/read/ebook/read/33/5 | SQL: SHOW COLUMNS FROM `books` [ RunTime:0.004324s ]
+[ 2012-03-29T13:09:32+08:00 ] /www/read/ebook/read/33/5 | SQL: SELECT `bookTitle` FROM `books` WHERE ( `id` = '33' ) LIMIT 1   [ RunTime:0.006587s ]
+[ 2012-03-29T13:09:32+08:00 ] /www/read/ebook/read/33/5 | SQL: SELECT `contentNum` FROM `bookcontents` WHERE ( `booksId` = '33' ) ORDER BY contentNum desc LIMIT 1   [ RunTime:0.000633s ]
+[ 2012-03-29T13:09:32+08:00 ] /www/read/ebook/read/33/5 | SQL: SHOW COLUMNS FROM `booklib` [ RunTime:0.004133s ]
+[ 2012-03-29T13:09:32+08:00 ] /www/read/ebook/read/33/5 | SQL: UPDATE `booklib` SET `contentId`='5',`lastTime`='2012-03-29' WHERE ( `userId` = '3' ) AND ( `bookId` = '33' ) [ RunTime:0.003830s ]
+[ 2012-03-29T13:09:32+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_template ] --START--
+[ 2012-03-29T13:09:32+08:00 ] /www/read/ebook/read/33/5 | INFO: Run LocationTemplate Behavior [ RunTime:0.001547s ]
+[ 2012-03-29T13:09:32+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_template ] --END-- [ RunTime:0.001644s ]
+[ 2012-03-29T13:09:32+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_parse ] --START--
+[ 2012-03-29T13:09:32+08:00 ] /www/read/ebook/read/33/5 | INFO: Run ParseTemplate Behavior [ RunTime:0.019230s ]
+[ 2012-03-29T13:09:32+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.019338s ]
+[ 2012-03-29T13:09:32+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_filter ] --START--
+[ 2012-03-29T13:09:32+08:00 ] /www/read/ebook/read/33/5 | INFO: Run ContentReplace Behavior [ RunTime:0.000781s ]
+[ 2012-03-29T13:09:32+08:00 ] /www/read/ebook/read/33/5 | INFO: Run TokenBuild Behavior [ RunTime:0.001126s ]
+[ 2012-03-29T13:09:32+08:00 ] /www/read/ebook/read/33/5 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000491s ]
+[ 2012-03-29T13:09:32+08:00 ] /www/read/ebook/read/33/5 | INFO: Run ShowRuntime Behavior [ RunTime:0.000766s ]
+[ 2012-03-29T13:09:32+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003432s ]
+[ 2012-03-29T13:09:32+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_end ] --START--
+[ 2012-03-29T13:09:32+08:00 ] /www/read/ebook/read/33/5 | INFO: Run ShowPageTrace Behavior [ RunTime:0.000820s ]
+[ 2012-03-29T13:09:32+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_end ] --END-- [ RunTime:0.000905s ]
+[ 2012-03-29T18:32:29+08:00 ] /www/read/ | INFO: Tag[ app_begin ] --START--
+[ 2012-03-29T18:32:29+08:00 ] /www/read/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.006889s ]
+[ 2012-03-29T18:32:29+08:00 ] /www/read/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.007063s ]
+[ 2012-03-29T18:32:29+08:00 ] /www/read/login | INFO: Tag[ route_check ] --START--
+[ 2012-03-29T18:32:29+08:00 ] /www/read/login | INFO: Run CheckRoute Behavior [ RunTime:0.008027s ]
+[ 2012-03-29T18:32:29+08:00 ] /www/read/login | INFO: Tag[ route_check ] --END-- [ RunTime:0.008170s ]
+[ 2012-03-29T18:32:29+08:00 ] /www/read/login | INFO: Tag[ app_begin ] --START--
+[ 2012-03-29T18:32:29+08:00 ] /www/read/login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000815s ]
+[ 2012-03-29T18:32:29+08:00 ] /www/read/login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000912s ]
+[ 2012-03-29T18:32:29+08:00 ] /www/read/login | NOTIC: [8] Undefined index:  userName functions.php 第 441 行.
+[ 2012-03-29T18:32:29+08:00 ] /www/read/login | NOTIC: [8] Undefined index:  logout functions.php 第 441 行.
+[ 2012-03-29T18:32:29+08:00 ] /www/read/login | INFO: Tag[ view_template ] --START--
+[ 2012-03-29T18:32:29+08:00 ] /www/read/login | INFO: Run LocationTemplate Behavior [ RunTime:0.006734s ]
+[ 2012-03-29T18:32:29+08:00 ] /www/read/login | INFO: Tag[ view_template ] --END-- [ RunTime:0.006834s ]
+[ 2012-03-29T18:32:29+08:00 ] /www/read/login | INFO: Tag[ view_parse ] --START--
+[ 2012-03-29T18:32:29+08:00 ] /www/read/login | INFO: Run ParseTemplate Behavior [ RunTime:0.066535s ]
+[ 2012-03-29T18:32:29+08:00 ] /www/read/login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.066640s ]
+[ 2012-03-29T18:32:29+08:00 ] /www/read/login | INFO: Tag[ view_filter ] --START--
+[ 2012-03-29T18:32:29+08:00 ] /www/read/login | INFO: Run ContentReplace Behavior [ RunTime:0.005508s ]
+[ 2012-03-29T18:32:29+08:00 ] /www/read/login | INFO: Run TokenBuild Behavior [ RunTime:0.006099s ]
+[ 2012-03-29T18:32:29+08:00 ] /www/read/login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.004438s ]
+[ 2012-03-29T18:32:29+08:00 ] /www/read/login | INFO: Run ShowRuntime Behavior [ RunTime:0.006300s ]
+[ 2012-03-29T18:32:29+08:00 ] /www/read/login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.022628s ]
+[ 2012-03-29T18:32:29+08:00 ] /www/read/login | INFO: Tag[ view_end ] --START--
+[ 2012-03-29T18:32:29+08:00 ] /www/read/login | INFO: Run ShowPageTrace Behavior [ RunTime:0.006972s ]
+[ 2012-03-29T18:32:29+08:00 ] /www/read/login | INFO: Tag[ view_end ] --END-- [ RunTime:0.007062s ]
+[ 2012-03-29T18:32:37+08:00 ] /www/read/check | INFO: Tag[ route_check ] --START--
+[ 2012-03-29T18:32:37+08:00 ] /www/read/check | INFO: Run CheckRoute Behavior [ RunTime:0.001209s ]
+[ 2012-03-29T18:32:37+08:00 ] /www/read/check | INFO: Tag[ route_check ] --END-- [ RunTime:0.001347s ]
+[ 2012-03-29T18:32:37+08:00 ] /www/read/check | INFO: Tag[ app_begin ] --START--
+[ 2012-03-29T18:32:37+08:00 ] /www/read/check | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000826s ]
+[ 2012-03-29T18:32:37+08:00 ] /www/read/check | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000924s ]
+[ 2012-03-29T18:32:37+08:00 ] /www/read/check | SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008766s ]
+[ 2012-03-29T18:32:37+08:00 ] /www/read/check | SQL: SELECT `id` FROM `user` WHERE ( `userName` = 'user' ) AND ( `userPass` = 'user' ) AND ( `state` = 1 ) LIMIT 1   [ RunTime:0.006661s ]
+[ 2012-03-29T18:32:37+08:00 ] /www/read/index | INFO: Tag[ route_check ] --START--
+[ 2012-03-29T18:32:37+08:00 ] /www/read/index | INFO: Run CheckRoute Behavior [ RunTime:0.001261s ]
+[ 2012-03-29T18:32:37+08:00 ] /www/read/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001403s ]
+[ 2012-03-29T18:32:37+08:00 ] /www/read/index | INFO: Tag[ app_begin ] --START--
+[ 2012-03-29T18:32:37+08:00 ] /www/read/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000814s ]
+[ 2012-03-29T18:32:37+08:00 ] /www/read/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000913s ]
+[ 2012-03-29T18:32:37+08:00 ] /www/read/index | SQL: SHOW COLUMNS FROM `books` [ RunTime:0.008842s ]
+[ 2012-03-29T18:32:37+08:00 ] /www/read/index | SQL: SELECT * FROM `books`  [ RunTime:0.003453s ]
+[ 2012-03-29T18:32:37+08:00 ] /www/read/index | SQL: SHOW COLUMNS FROM `booklib` [ RunTime:0.008920s ]
+[ 2012-03-29T18:32:37+08:00 ] /www/read/index | SQL: SELECT * FROM `booklib` WHERE ( `userId` = '3' )  [ RunTime:0.003366s ]
+[ 2012-03-29T18:32:37+08:00 ] /www/read/index | INFO: Tag[ view_template ] --START--
+[ 2012-03-29T18:32:37+08:00 ] /www/read/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001491s ]
+[ 2012-03-29T18:32:37+08:00 ] /www/read/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001591s ]
+[ 2012-03-29T18:32:37+08:00 ] /www/read/index | INFO: Tag[ view_parse ] --START--
+[ 2012-03-29T18:32:37+08:00 ] /www/read/index | INFO: Run ParseTemplate Behavior [ RunTime:0.025821s ]
+[ 2012-03-29T18:32:37+08:00 ] /www/read/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.025927s ]
+[ 2012-03-29T18:32:37+08:00 ] /www/read/index | INFO: Tag[ view_filter ] --START--
+[ 2012-03-29T18:32:37+08:00 ] /www/read/index | INFO: Run ContentReplace Behavior [ RunTime:0.000646s ]
+[ 2012-03-29T18:32:37+08:00 ] /www/read/index | INFO: Run TokenBuild Behavior [ RunTime:0.000628s ]
+[ 2012-03-29T18:32:37+08:00 ] /www/read/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000421s ]
+[ 2012-03-29T18:32:37+08:00 ] /www/read/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000712s ]
+[ 2012-03-29T18:32:37+08:00 ] /www/read/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002649s ]
+[ 2012-03-29T18:32:37+08:00 ] /www/read/index | INFO: Tag[ view_end ] --START--
+[ 2012-03-29T18:32:37+08:00 ] /www/read/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000751s ]
+[ 2012-03-29T18:32:37+08:00 ] /www/read/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000832s ]
+[ 2012-03-29T18:32:40+08:00 ] /www/read/Libary | INFO: Tag[ route_check ] --START--
+[ 2012-03-29T18:32:40+08:00 ] /www/read/Libary | INFO: Run CheckRoute Behavior [ RunTime:0.001910s ]
+[ 2012-03-29T18:32:40+08:00 ] /www/read/Libary | INFO: Tag[ route_check ] --END-- [ RunTime:0.002056s ]
+[ 2012-03-29T18:32:40+08:00 ] /www/read/Libary | INFO: Tag[ app_begin ] --START--
+[ 2012-03-29T18:32:40+08:00 ] /www/read/Libary | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001438s ]
+[ 2012-03-29T18:32:40+08:00 ] /www/read/Libary | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001540s ]
+[ 2012-03-29T18:32:40+08:00 ] /www/read/Libary | SQL: SHOW COLUMNS FROM `booklib` [ RunTime:0.004217s ]
+[ 2012-03-29T18:32:40+08:00 ] /www/read/Libary | SQL: SELECT * FROM `booklib` WHERE ( `userId` = '3' )  [ RunTime:0.003060s ]
+[ 2012-03-29T18:32:40+08:00 ] /www/read/Libary | SQL: SHOW COLUMNS FROM `books` [ RunTime:0.004271s ]
+[ 2012-03-29T18:32:40+08:00 ] /www/read/Libary | SQL: SELECT * FROM `books`  [ RunTime:0.003714s ]
+[ 2012-03-29T18:32:40+08:00 ] /www/read/Libary | INFO: Tag[ view_template ] --START--
+[ 2012-03-29T18:32:40+08:00 ] /www/read/Libary | INFO: Run LocationTemplate Behavior [ RunTime:0.002161s ]
+[ 2012-03-29T18:32:40+08:00 ] /www/read/Libary | INFO: Tag[ view_template ] --END-- [ RunTime:0.002260s ]
+[ 2012-03-29T18:32:40+08:00 ] /www/read/Libary | INFO: Tag[ view_parse ] --START--
+[ 2012-03-29T18:32:40+08:00 ] /www/read/Libary | INFO: Run ParseTemplate Behavior [ RunTime:0.041187s ]
+[ 2012-03-29T18:32:40+08:00 ] /www/read/Libary | INFO: Tag[ view_parse ] --END-- [ RunTime:0.041314s ]
+[ 2012-03-29T18:32:40+08:00 ] /www/read/Libary | INFO: Tag[ view_filter ] --START--
+[ 2012-03-29T18:32:40+08:00 ] /www/read/Libary | INFO: Run ContentReplace Behavior [ RunTime:0.001330s ]
+[ 2012-03-29T18:32:40+08:00 ] /www/read/Libary | INFO: Run TokenBuild Behavior [ RunTime:0.001483s ]
+[ 2012-03-29T18:32:40+08:00 ] /www/read/Libary | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001136s ]
+[ 2012-03-29T18:32:40+08:00 ] /www/read/Libary | INFO: Run ShowRuntime Behavior [ RunTime:0.001384s ]
+[ 2012-03-29T18:32:40+08:00 ] /www/read/Libary | INFO: Tag[ view_filter ] --END-- [ RunTime:0.005620s ]
+[ 2012-03-29T18:32:40+08:00 ] /www/read/Libary | INFO: Tag[ view_end ] --START--
+[ 2012-03-29T18:32:40+08:00 ] /www/read/Libary | INFO: Run ShowPageTrace Behavior [ RunTime:0.001411s ]
+[ 2012-03-29T18:32:40+08:00 ] /www/read/Libary | INFO: Tag[ view_end ] --END-- [ RunTime:0.001498s ]
+[ 2012-03-29T18:32:41+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ route_check ] --START--
+[ 2012-03-29T18:32:41+08:00 ] /www/read/ebook/read/33/5 | INFO: Run CheckRoute Behavior [ RunTime:0.001217s ]
+[ 2012-03-29T18:32:41+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001357s ]
+[ 2012-03-29T18:32:41+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ app_begin ] --START--
+[ 2012-03-29T18:32:41+08:00 ] /www/read/ebook/read/33/5 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001038s ]
+[ 2012-03-29T18:32:41+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001150s ]
+[ 2012-03-29T18:32:41+08:00 ] /www/read/ebook/read/33/5 | SQL: SHOW COLUMNS FROM `bookcontents` [ RunTime:0.009379s ]
+[ 2012-03-29T18:32:41+08:00 ] /www/read/ebook/read/33/5 | SQL: SELECT * FROM `bookcontents` WHERE ( `booksId` = '33' ) AND ( `contentNum` = '5' )  [ RunTime:0.003826s ]
+[ 2012-03-29T18:32:41+08:00 ] /www/read/ebook/read/33/5 | SQL: SHOW COLUMNS FROM `books` [ RunTime:0.004316s ]
+[ 2012-03-29T18:32:41+08:00 ] /www/read/ebook/read/33/5 | SQL: SELECT `bookTitle` FROM `books` WHERE ( `id` = '33' ) LIMIT 1   [ RunTime:0.003554s ]
+[ 2012-03-29T18:32:41+08:00 ] /www/read/ebook/read/33/5 | SQL: SELECT `contentNum` FROM `bookcontents` WHERE ( `booksId` = '33' ) ORDER BY contentNum desc LIMIT 1   [ RunTime:0.000639s ]
+[ 2012-03-29T18:32:41+08:00 ] /www/read/ebook/read/33/5 | SQL: SHOW COLUMNS FROM `booklib` [ RunTime:0.004099s ]
+[ 2012-03-29T18:32:41+08:00 ] /www/read/ebook/read/33/5 | SQL: UPDATE `booklib` SET `contentId`='5',`lastTime`='2012-03-29' WHERE ( `userId` = '3' ) AND ( `bookId` = '33' ) [ RunTime:0.007129s ]
+[ 2012-03-29T18:32:41+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_template ] --START--
+[ 2012-03-29T18:32:41+08:00 ] /www/read/ebook/read/33/5 | INFO: Run LocationTemplate Behavior [ RunTime:0.001496s ]
+[ 2012-03-29T18:32:41+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_template ] --END-- [ RunTime:0.001591s ]
+[ 2012-03-29T18:32:41+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_parse ] --START--
+[ 2012-03-29T18:32:41+08:00 ] /www/read/ebook/read/33/5 | INFO: Run ParseTemplate Behavior [ RunTime:0.022353s ]
+[ 2012-03-29T18:32:41+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.022463s ]
+[ 2012-03-29T18:32:41+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_filter ] --START--
+[ 2012-03-29T18:32:41+08:00 ] /www/read/ebook/read/33/5 | INFO: Run ContentReplace Behavior [ RunTime:0.000747s ]
+[ 2012-03-29T18:32:41+08:00 ] /www/read/ebook/read/33/5 | INFO: Run TokenBuild Behavior [ RunTime:0.000638s ]
+[ 2012-03-29T18:32:41+08:00 ] /www/read/ebook/read/33/5 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000407s ]
+[ 2012-03-29T18:32:41+08:00 ] /www/read/ebook/read/33/5 | INFO: Run ShowRuntime Behavior [ RunTime:0.000696s ]
+[ 2012-03-29T18:32:41+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002736s ]
+[ 2012-03-29T18:32:41+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_end ] --START--
+[ 2012-03-29T18:32:41+08:00 ] /www/read/ebook/read/33/5 | INFO: Run ShowPageTrace Behavior [ RunTime:0.000747s ]
+[ 2012-03-29T18:32:41+08:00 ] /www/read/ebook/read/33/5 | INFO: Tag[ view_end ] --END-- [ RunTime:0.000830s ]
+[ 2012-03-29T20:05:20+08:00 ] /www/read/admin | INFO: Tag[ route_check ] --START--
+[ 2012-03-29T20:05:20+08:00 ] /www/read/admin | INFO: Run CheckRoute Behavior [ RunTime:0.002432s ]
+[ 2012-03-29T20:05:20+08:00 ] /www/read/admin | INFO: Tag[ route_check ] --END-- [ RunTime:0.002632s ]
+[ 2012-03-29T20:05:20+08:00 ] /www/read/admin | INFO: Tag[ app_begin ] --START--
+[ 2012-03-29T20:05:20+08:00 ] /www/read/admin | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001831s ]
+[ 2012-03-29T20:05:20+08:00 ] /www/read/admin | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001940s ]
+[ 2012-03-29T20:05:20+08:00 ] /www/read/admin/login | INFO: Tag[ route_check ] --START--
+[ 2012-03-29T20:05:20+08:00 ] /www/read/admin/login | INFO: Run CheckRoute Behavior [ RunTime:0.001282s ]
+[ 2012-03-29T20:05:20+08:00 ] /www/read/admin/login | INFO: Tag[ route_check ] --END-- [ RunTime:0.001425s ]
+[ 2012-03-29T20:05:20+08:00 ] /www/read/admin/login | INFO: Tag[ app_begin ] --START--
+[ 2012-03-29T20:05:20+08:00 ] /www/read/admin/login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000891s ]
+[ 2012-03-29T20:05:20+08:00 ] /www/read/admin/login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000994s ]
+[ 2012-03-29T20:05:20+08:00 ] /www/read/admin/login | NOTIC: [8] Undefined index:  userName functions.php 第 441 行.
+[ 2012-03-29T20:05:20+08:00 ] /www/read/admin/login | NOTIC: [8] Undefined index:  logout functions.php 第 441 行.
+[ 2012-03-29T20:05:20+08:00 ] /www/read/admin/login | INFO: Tag[ view_template ] --START--
+[ 2012-03-29T20:05:20+08:00 ] /www/read/admin/login | INFO: Run LocationTemplate Behavior [ RunTime:0.003282s ]
+[ 2012-03-29T20:05:20+08:00 ] /www/read/admin/login | INFO: Tag[ view_template ] --END-- [ RunTime:0.003386s ]
+[ 2012-03-29T20:05:20+08:00 ] /www/read/admin/login | INFO: Tag[ view_parse ] --START--
+[ 2012-03-29T20:05:20+08:00 ] /www/read/admin/login | INFO: Run ParseTemplate Behavior [ RunTime:0.035930s ]
+[ 2012-03-29T20:05:20+08:00 ] /www/read/admin/login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.036038s ]
+[ 2012-03-29T20:05:20+08:00 ] /www/read/admin/login | INFO: Tag[ view_filter ] --START--
+[ 2012-03-29T20:05:20+08:00 ] /www/read/admin/login | INFO: Run ContentReplace Behavior [ RunTime:0.001608s ]
+[ 2012-03-29T20:05:20+08:00 ] /www/read/admin/login | INFO: Run TokenBuild Behavior [ RunTime:0.001909s ]
+[ 2012-03-29T20:05:20+08:00 ] /www/read/admin/login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001438s ]
+[ 2012-03-29T20:05:20+08:00 ] /www/read/admin/login | INFO: Run ShowRuntime Behavior [ RunTime:0.001715s ]
+[ 2012-03-29T20:05:20+08:00 ] /www/read/admin/login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.006949s ]
+[ 2012-03-29T20:05:20+08:00 ] /www/read/admin/login | INFO: Tag[ view_end ] --START--
+[ 2012-03-29T20:05:20+08:00 ] /www/read/admin/login | INFO: Run ShowPageTrace Behavior [ RunTime:0.001728s ]
+[ 2012-03-29T20:05:20+08:00 ] /www/read/admin/login | INFO: Tag[ view_end ] --END-- [ RunTime:0.001819s ]

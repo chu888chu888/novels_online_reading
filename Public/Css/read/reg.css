@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+.login_main .reg_btn {
+width: 148px;
+height: 48px;
+line-height: 150px;
+overflow: hidden;
+font-size: 0;
+background-image: url(../../images/read/icon/reg.png);
+border: none;
+cursor: pointer;
+
+}

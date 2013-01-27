@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+font: 16px "Microsoft YaHei","Helvetica Neue",Helvetica,"Lucida Grande","Luxi Sans",Arial,sans-serif;
+overflow-x: hidden;
+overflow-y: scroll;
+background: #E8ECEC;
+	}
+a{ text-decoration:none;color:#999;}
+
+
+.head{
+height:50px;
+line-height:50px;
+vertical-align: middle;
+background:#D4D8D8;
+font-size:14px;
+
+}
+.login,.bookshelf, .article, .footer, .content,.navigation,.library-heading{
+	width: 680px;
+margin-left: auto;
+margin-right: auto;
+position: relative;
+	}
+.navigation h1{
+	width: 109px;
+	height: 100%;
+	font-size:20px;
+	font-weight:bold;
+	}
+	
+.navigation .link-to-book-store {
+position: absolute;
+top: 0;
+left: 130px;
+}
+.navigation .session {
+position: absolute;
+top: 0;
+right: 0;
+white-space: nowrap;
+}
+
+
+
+
+.footer {
+font-size: 12px;
+overflow: hidden;
+_zoom: 1;
+margin-top: 140px;
+padding-bottom: 14px;
+}
+.footer .copyright {
+float: left;
+}
+.footer .footer-nav {
+float: right;
+}
+.footer-nav li {
+display: inline-block;
+margin-left: 1.2em;
+}

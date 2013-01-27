@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>登录</title>
+<load href="__PUBLIC__/css/read/reset-min.css"  />
+<load href="__PUBLIC__/css/read/common.css"  />
+<load href="__PUBLIC__/css/read/login.css" />
+<load href="__PUBLIC__/js/jquery.js" />
+<script type="text/javascript">
+$(function(){
+    $(".main .menu ul:eq(1)").addClass("selected")
+})
+</script>
+<style type="text/css">
+.main {
+	width: 680px;
+margin-left: auto;
+margin-right: auto;
+position: relative;
+}
+.main .menu {
+    width: 680px;
+    height:20px;
+	font-size:14px;
+	margin-top:1px;
+	
+}
+.main .menu ul {
+	width:112px;
+	height:20px;
+	text-align:center;
+	float:left;
+	background-color:#D4D8D8;
+	margin-right:1px;
+	color:#8A8A8A;
+}
+.main .menu .selected {
+	color:#79acdc;
+    background-color:#efefef;
+}
+.main .menu ul:hover {
+	background-color:#efefef;
+	cursor:pointer;
+
+}
+.main #addBook {
+	width:680px;
+	text-align:left;
+	line-height:50px;
+	padding-top:50px;
+}
+
+</style>
+</head>
+
+<body>
+<include file="./Tpl/Admin/Inc/header.html" />
+
+<div class="main">
+    <include file="./Tpl/Author/Inc/menu.html" />
+    <volist name="books" id="vo"> 
+    <form id="addBook" method="POST" action="__URL__/edit?id={$vo.id}" >
+    </volist>
+    <input name="bookAuthorId" type="hidden" value="{$userId}" />
+     <input name="authorName" type="hidden" value="{$userName}" />
+   		 分类：<select name="bookClassId" >
+   		 			<volist name="bookclass" id="vo">
+   		 			<option value="{$vo.id}">{$vo.bookClassName}</option>
+   		 			 </volist>
+
+             <volist name="bookclassAll" id="vo">
+            <option value="{$vo.id}">{$vo.bookClassName}</option>
+             </volist>
+   		 		</select>
+
+         <volist name="books" id="vo"> 
+   		 收费：<select name="bookType" >
+            <if condition='$vo.bookType eq 0' >
+            <option value="0" >免费</option>
+            <option value="1" >收费</option>
+            <else />
+            <option value="1" >收费</option> 
+            <option value="0" >免费</option>
+              </if>
+            
+              
+            </option>
+   		 			
+           
+   		 		</select>
+    
+      	小说名：<input name="bookTitle" type="text" value="{$vo.bookTitle}" />
+      	<br />
+      	简介：<textarea name="bookDescribe" style="margin-top: 0px; margin-bottom: 0px; height: 91px; margin-left: 0px; margin-right: 0px; width: 680px; " >{$vo.bookDescribe}</textarea>
+      	<br />
+        </volist>
+      	<input type="submit" value="修改" />
+    </form>	
+
+</div>
+
+<include file="./Tpl/Admin/Inc/footer.html" />
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>小说阅读网</title>
+<load href="__PUBLIC__/Css/read/reset-min.css" />
+<load href="__PUBLIC__/Css/read/common.css"  />
+<load href="__PUBLIC__/Css/read/novel.css" />
+<load href="__PUBLIC__/js/jquery.js" />
+<script type="text/javascript">
+$(function(){
+  
+      //如果。icona-dded[表现为已经被加入书签]  其后有同辈元素，则隐藏他
+      $(".icon-added").next( "a").remove();
+
+      $(".article-desc-brief .view-detail-context .view-detail").click(function(){
+        $(this).parent().parent(".article-desc-brief").hide();
+        $(this).parent().parent(".article-desc-brief").next().show();
+      })
+
+      $(".article-desc-full .view-detail-context .view-detail").click(function(){
+       $(this).parent().parent(".article-desc-full").hide();
+        $(this).parent().parent().prev(".article-desc-brief").show();
+         
+      })
+
+
+
+})
+</script>
+</head>
+
+<body>
+<include file="./Tpl/Home/Inc/head.html" />
+<div class="library-heading" >
+	<div class="header">
+        <ul class="library-filter-tabs">
+            <li class="tab" >
+                <h2>全体小说起立</h2>
+           </li>
+        </ul>
+    </div>	
+</div>
+<ol class="article" >
+<volist name="books" id="vo">
+	<div  class="item">
+      <div class="cover">
+          
+
+<div class="pic cover-renderer" style="background: url(__PUBLIC__/Images/read/books/coverDemo.jpg);
+  color: white">
+  <span class="cover-rendered-text"></span>
+</div>
+
+      </div>
+      <div class="info">
+          <h3 class="title">{$vo.bookTitle}</h3>
+          <div class="article-actions">
+           
+
+            <foreach name="booklib" item="vo1">
+               <if condition="( $vo.id eq $vo1.bookId  )">
+               已加入阅读列表<span class="icon-added"></span>   
+                <else />
+
+            </if>
+
+
+
+            </foreach>
+            <a  class="purchase btn-compact bookList" href="__URL__/add/bookId/{$vo.id}">加入阅读列表</a>
+
+
+
+            
+          </div>
+
+        
+
+          <p>
+              <span class="author" bookAuthorId={$vo.bookAuthorId}>
+                  作者：{$vo.authorName}
+              </span>
+          </p>
+          <div class="article-desc-brief">
+              <p class="abstract">{$vo.bookDescribe}</p>
+              <p class="view-detail-context">
+                  <a class="view-detail" href="javascript:;">查看详细信息</b></a>
+              </p>
+          </div>
+          <div class="article-desc-full">
+            <p>{$vo.bookDescribe}</p>
+            
+              
+            
+            <p class="view-detail-context"><a class="view-detail" href="javascript:;">收起</a></p>
+          </div>
+      </div>
+  </div>
+</volist>
+  
+  
+  
+  
+  
+  
+  
+  
+    
+</ol>
+
+
+<include file="./Tpl/Admin/Inc/footer.html" />
+</body>
+</html>

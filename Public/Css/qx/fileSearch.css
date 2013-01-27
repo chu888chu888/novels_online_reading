@@ -1,0 +1,111 @@
+@charset "utf-8";
+/*弹出日历*/
+/* The main calendar widget.  DIV containing a table. */
+.calendar { position: relative; display: none; border: 1px solid #000; font-size: 11px; color: #000; cursor: default; background: #E3EBF6;font-family: tahoma,verdana,sans-serif;}
+.calendar table { border-top: 1px solid #fff;border-right: 1px solid #fff;border-bottom: 1px solid #fff; border-left: 1px solid #fff; font-size: 11px;color: #000;cursor: default;background: #E3EBF6;font-family: tahoma,verdana,sans-serif;}
+/* Header part -- contains navigation buttons and day names. */
+.calendar .button {   text-align: center; padding: 1px;border-top: 1px solid #fff;border-right: 1px solid #fff;border-bottom: 1px solid #fff; border-left: 1px solid #fff; font-weight:bold;}/* "<<", "<", ">", ">>" buttons have this class */
+.calendar thead .title {font-weight: bold;padding: 1px;border: 1px solid #fff;background: #99B2D3;color: #fff;text-align: center;
+} /* This holds the current "month, year" */
+.calendar thead .headrow { }/* Row <TR> containing navigation buttons */
+.calendar thead .daynames { }/* Row <TR> containing the day names */
+.calendar thead .name { border-bottom: 1px solid #fff; padding: 2px;text-align: center;background: #CBD7E6;}/* Cells <TD> containing the day names */
+.calendar thead .weekend { color: #f00;}/* How a weekend day name shows in header */
+.calendar thead .hilite { border-top: 2px solid #fff;border-right: 2px solid #fff;border-bottom: 2px solid #fff;border-left: 2px solid #fff; padding: 0px;background: #ffffff;}/* How do the buttons in header appear when hover */
+.calendar thead .active { padding: 2px 0px 0px 2px;border-top: 1px solid #fff;border-right: 1px solid #fff;border-bottom: 1px solid #fff; border-left: 1px solid #fff;background: #b8c0c4;}/* Active (pressed) buttons in header */
+/* The body part -- contains all the days in month. */
+.calendar tbody .day { width: 2em;text-align: right;padding: 2px 4px 2px 2px;}/* Cells <TD> containing month days dates */
+.calendar table .wn {padding: 2px 3px 2px 2px;border-right: 1px solid #fff;background: #CBD7E6;}
+.calendar tbody .rowhilite td {background: #d8e4e0;}
+.calendar tbody .rowhilite td.wn {background: #c8d4d0;}
+.calendar tbody td.hilite {padding: 1px 3px 1px 1px;border: 1px solid;border-color: #fff #fff #fff #fff;} /* Hovered cells <TD> */
+.calendar tbody td.active { padding: 2px 2px 0px 2px; border: 1px solid; border-color: #fff #fff #fff #fff;}/* Active (pressed) cells <TD> */
+.calendar tbody td.selected { font-weight: bold;padding: 2px 2px 0px 2px;border: 1px solid;border-color: #fff #fff #fff #fff; background: #d8e0e4;}/* Cell showing selected date */
+.calendar tbody td.weekend { color: #f00;} /* Cells showing weekend days */
+.calendar tbody td.today { ont-weight: bold;color: #00f;}/* Cell showing today date */
+.calendar tbody .disabled { color: #999; }
+.calendar tbody .emptycell {visibility: hidden;} /* Empty cells (the best is to hide them) */
+.calendar tbody .emptyrow { display: none;}/* Empty row (some months need less than 6 rows) */
+/* The footer part -- status bar and "Close" button */
+.calendar tfoot .footrow { }/* The <TR> in footer (only one right now) */
+.calendar tfoot .ttip { background: #CBD7E6;padding: 1px;border: 1px solid #fff; background: #99B2D3;color: #fff;text-align: center;}/* Tooltip (status bar) cell <TD> */
+.calendar tfoot .hilite {border-top: 1px solid #fff;border-right: 1px solid #fff;border-bottom: 1px solid #fff;border-left: 1px solid #fff; padding: 1px;background: #d8e0e4;} /* Hover style for buttons in footer */
+.calendar tfoot .active { padding: 2px 0px 0px 2px;border-top: 1px solid #fff;border-right: 1px solid #fff;border-bottom: 1px solid #fff; border-left: 1px solid #fff;}/* Active (pressed) style for buttons in footer */
+/* Combo boxes (menus that display months/years for direct selection) */
+.combo {position: absolute;display: none;width: 4em;top: 0px;left: 0px;cursor: default;border-top: 1px solid #fff;border-right: 1px solid #fff;border-bottom: 1px solid #fff;border-left: 1px solid #fff;background: #d8e0e4;font-size: smaller;padding: 1px;}
+.combo .label {text-align: center;padding:1px;}
+.combo .active {background: #E3EBF6;padding: 0px;border-top: 1px solid #fff;border-right: 1px solid #fff;border-bottom: 1px solid #fff;border-left: 1px solid #fff;}
+.combo .hilite {background: #048;color: #aef;}
+
+
+
+
+
+body{font-size:12px;}
+#eApp_middle {
+	width: 789px;
+}
+#eApp_middle .govDir_box dl dt {
+  height: 24px;
+border: #D6DEE7 1px solid;
+overflow: hidden;
+padding-left: 27px;
+}
+#eApp_middle .govDir_box dl dt span {
+	color: #3164B3;
+	font-size:14px;
+	line-height:26px;
+}
+
+
+#eApp_middle .OpenSearch table tbody tr .tdlab {
+background-color: #E1EBF8;
+width: 202px;
+font-weight: bold;
+color: #333;
+}
+#eApp_middle .OpenSearch table tbody tr .tdlab span {
+	display: block;
+font-weight: 100;
+color: #777;
+line-height: 14px;
+}
+#eApp_middle .OpenSearch table tbody tr td {
+	border: 1px solid white;
+background-color: #EEF4FB;
+padding: 4px 7px;
+}
+#eApp_middle .OpenSearch table tbody tr .bottombt {
+	text-align: center;
+height: 40px;
+color: #4967AC;
+}
+#eApp_middle .OpenSearch table tbody tr td .wid260 {
+	width:260px;
+}
+
+
+#eApp_middle .GovDir .wjb tbody tr .headsqh {
+  font-weight: bold;
+text-align: center;
+}
+#eApp_middle .GovDir .wjb tbody tr .contentsqh {
+  font-weight: normal;
+text-align: center;
+padding:5px;
+}
+#eApp_middle .GovDir .wjb tbody tr:hover {
+background-color:#efefef;
+}
+.OpenSearch table tbody tr .bottombt a {
+	display:inline-block;
+	width:80px;
+	height:26px;
+	line-height:26px;
+	text-decoration:none;
+	background-color:#aaa;
+	color:#FFF;
+}
+.OpenSearch table tbody tr .bottombt a:hover {
+	border:1px solid #333;
+}
